@@ -82,8 +82,17 @@ export default function UFTable({ data }: { data: UF[] }) {
                         <span className="font-bold text-slate-700 text-sm">{d.UF}</span>
                       </div>
                     </td>
-                    <td className="px-4 py-3 text-right font-semibold text-slate-900 text-xs">
-                      {d.leads != null ? fmtN(d.leads) : <span className="text-slate-300">—</span>}
+                    <td className="px-4 py-3 text-right">
+                      {d.leads != null ? (
+                        <div className="flex flex-col items-end gap-0.5">
+                          <span className="font-semibold text-slate-900 text-xs">{fmtN(d.leads)}</span>
+                          <span className="text-[10px] text-slate-400 font-medium">
+                            {totalLeads ? ((d.leads / totalLeads) * 100).toFixed(1) + "%" : "—"}
+                          </span>
+                        </div>
+                      ) : (
+                        <span className="text-slate-300">—</span>
+                      )}
                     </td>
                     <td className="px-4 py-3 text-right font-semibold text-[#003087]">
                       {fmtN(d.vendas)}
