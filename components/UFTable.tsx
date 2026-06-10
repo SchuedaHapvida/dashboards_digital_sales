@@ -16,11 +16,6 @@ function fmtN(n: number) {
   return n.toLocaleString("pt-BR");
 }
 
-const STATE_COLORS = [
-  "#003087", "#1B4DB0", "#2563EB", "#3B82F6", "#60A5FA",
-  "#93C5FD", "#0EA5E9", "#0284C7", "#0369A1", "#075985",
-  "#1e40af", "#1d4ed8",
-];
 
 export default function UFTable({ data }: { data: UF[] }) {
   const totalVendas = data.reduce((s, d) => s + d.vendas, 0);
@@ -29,7 +24,6 @@ export default function UFTable({ data }: { data: UF[] }) {
     ? data.reduce((s, d) => s + (d.leads ?? 0), 0)
     : null;
   const hasLeads = totalLeads !== null;
-  const maxVendas = data[0]?.vendas ?? 1;
 
   return (
       <div className="bg-white rounded-xl shadow-sm overflow-hidden">
@@ -57,14 +51,10 @@ export default function UFTable({ data }: { data: UF[] }) {
                 <th className="px-4 py-3 text-right">Taxa Conv.</th>
                 <th className="px-4 py-3 text-right">Receita Total</th>
                 <th className="px-4 py-3 text-right">Ticket Médio</th>
-                <th className="px-4 py-3 text-right">MKT Share</th>
-                <th className="px-4 py-3 text-left w-32">Concentração</th>
               </tr>
             </thead>
             <tbody className="divide-y divide-slate-50">
               {data.map((d, i) => {
-                const share = (d.vendas / totalVendas) * 100;
-                const barPct = (d.vendas / maxVendas) * 100;
                 const ticket = d.receita / d.vendas;
                 const conv =
                   d.leads != null && d.leads > 0
@@ -76,8 +66,8 @@ export default function UFTable({ data }: { data: UF[] }) {
                     <td className="px-4 py-3">
                       <div className="flex items-center gap-2">
                         <div
-                          className="w-2.5 h-2.5 rounded-sm flex-shrink-0"
-                          style={{ backgroundColor: STATE_COLORS[i % STATE_COLORS.length] }}
+                          className="w-2.5 h-2.5 rounded-sm flex-shrink-0 bg-[#003087] opacity-80"
+                          style={{ opacity: Math.max(0.2, 1 - i * 0.07) }}
                         />
                         <span className="font-bold text-slate-700 text-sm">{d.UF}</span>
                       </div>
@@ -106,32 +96,16 @@ export default function UFTable({ data }: { data: UF[] }) {
                         <span className="text-slate-300">—</span>
                       )}
                     </td>
-                    <td className="px-4 py-3 text-right font-semibold text-emerald-600 text-xs">
-                      {fmtR(d.receita)}
+                    <td className="px-4 py-3 text-right">
+                      <div className="flex flex-col items-end gap-0.5">
+                        <span className="font-semibold text-emerald-600 text-xs">{fmtR(d.receita)}</span>
+                        <span className="text-[10px] text-slate-400 font-medium">
+                          {((d.receita / totalReceita) * 100).toFixed(1)}% do total
+                        </span>
+                      </div>
                     </td>
                     <td className="px-4 py-3 text-right font-semibold text-slate-900 text-xs">
                       R$ {ticket.toFixed(2).replace(".", ",")}
-                    </td>
-                    <td className="px-4 py-3 text-right">
-                      <span className="bg-blue-50 text-[#003087] text-xs font-bold px-2.5 py-0.5 rounded-full">
-                        {share.toFixed(1)}%
-                      </span>
-                    </td>
-                    <td className="px-4 py-3">
-                      <div className="flex items-center gap-2">
-                        <div className="flex-1 bg-slate-100 rounded-full h-2">
-                          <div
-                            className="h-2 rounded-full transition-all"
-                            style={{
-                              width: `${barPct}%`,
-                              backgroundColor: STATE_COLORS[i % STATE_COLORS.length],
-                            }}
-                          />
-                        </div>
-                        <span className="text-xs text-slate-400 w-8 text-right">
-                          {barPct.toFixed(0)}%
-                        </span>
-                      </div>
                     </td>
                   </tr>
                 );
@@ -150,8 +124,6 @@ export default function UFTable({ data }: { data: UF[] }) {
                 <td className="px-4 py-3 text-right text-slate-500">
                   R$ {(totalReceita / totalVendas).toFixed(2).replace(".", ",")}
                 </td>
-                <td className="px-4 py-3 text-right text-[#003087]">100%</td>
-                <td className="px-4 py-3" />
               </tr>
             </tfoot>
           </table>
