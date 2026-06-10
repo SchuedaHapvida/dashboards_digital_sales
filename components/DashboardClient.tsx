@@ -15,7 +15,7 @@ import UFChart from "./UFChart";
 import UFTable from "./UFTable";
 import VolumeHorario from "./VolumeHorario";
 import VendedoresTable from "./VendedoresTable";
-import AgentesTable from "./AgentesTable";
+
 
 // ─── icons ───────────────────────────────────────────────────────────────────
 
@@ -352,16 +352,12 @@ export default function DashboardClient() {
               />
             </div>
 
-            {/* Tables */}
-            <div className="space-y-4">
-              <VendedoresTable
-                data={vendedores as any}
-                gestaoFilter={gestaoFiltro}
-                supervisorFilter={supervisorFiltro}
-                showHierarchy
-              />
-              <AgentesTable data={agentesGup as any} />
-            </div>
+            <VendedoresTable
+              data={vendedores as any}
+              gestaoFilter={gestaoFiltro}
+              supervisorFilter={supervisorFiltro}
+              showHierarchy
+            />
           </div>
         )}
 
