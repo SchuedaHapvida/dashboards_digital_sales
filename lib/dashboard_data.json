@@ -1,6 +1,6 @@
 {
   "kpi": {
-    "totalLeads": 48868,
+    "totalLeads": 44216,
     "totalVendas": 12726,
     "receitaTotal": 4203193.21,
     "ticketMedio": 330.28
@@ -8,14 +8,14 @@
   "kpiMes": [
     {
       "mes": "Maio/2026",
-      "leads": 43229,
+      "leads": 39154,
       "vendas": 10503,
       "receita": 3480250.56,
       "ticketMedio": 331.36
     },
     {
       "mes": "Jun/2026 (1–9)",
-      "leads": 5639,
+      "leads": 5062,
       "vendas": 2223,
       "receita": 722942.66,
       "ticketMedio": 325.21
@@ -260,73 +260,73 @@
       "UF": "SP",
       "vendas": 5056,
       "receita": 1606493.11,
-      "leads": 10456
+      "leads": 9414
     },
     {
       "UF": "MG",
       "vendas": 1064,
       "receita": 282382.65,
-      "leads": 3947
+      "leads": 3399
     },
     {
       "UF": "CE",
       "vendas": 877,
       "receita": 400625.84,
-      "leads": 6863
+      "leads": 6195
     },
     {
       "UF": "BA",
       "vendas": 772,
       "receita": 311673.41,
-      "leads": 5265
+      "leads": 4795
     },
     {
       "UF": "GO",
       "vendas": 768,
       "receita": 256003.86,
-      "leads": 1589
+      "leads": 1488
     },
     {
       "UF": "RJ",
       "vendas": 581,
       "receita": 179955.34,
-      "leads": 1286
+      "leads": 1223
     },
     {
       "UF": "PE",
       "vendas": 552,
       "receita": 183764.98,
-      "leads": 3905
+      "leads": 3693
     },
     {
       "UF": "PR",
       "vendas": 444,
       "receita": 118100.13,
-      "leads": 1713
+      "leads": 1440
     },
     {
       "UF": "PA",
       "vendas": 364,
       "receita": 173805.36,
-      "leads": 1931
+      "leads": 1738
     },
     {
       "UF": "RS",
       "vendas": 297,
       "receita": 78970.53,
-      "leads": 382
+      "leads": 362
     },
     {
       "UF": "DF",
       "vendas": 282,
       "receita": 84587.82,
-      "leads": 1485
+      "leads": 1300
     },
     {
       "UF": "RN",
       "vendas": 243,
       "receita": 70121.31,
-      "leads": 1725
+      "leads": 1610
     }
   ],
   "vendedores": [
