@@ -259,62 +259,74 @@
     {
       "UF": "SP",
       "vendas": 5056,
-      "receita": 1606493.11
+      "receita": 1606493.11,
+      "leads": 10456
     },
     {
       "UF": "MG",
       "vendas": 1064,
-      "receita": 282382.65
+      "receita": 282382.65,
+      "leads": 3947
     },
     {
       "UF": "CE",
       "vendas": 877,
-      "receita": 400625.84
+      "receita": 400625.84,
+      "leads": 6863
     },
     {
       "UF": "BA",
       "vendas": 772,
-      "receita": 311673.41
+      "receita": 311673.41,
+      "leads": 5265
     },
     {
       "UF": "GO",
       "vendas": 768,
-      "receita": 256003.86
+      "receita": 256003.86,
+      "leads": 1589
     },
     {
       "UF": "RJ",
       "vendas": 581,
-      "receita": 179955.34
+      "receita": 179955.34,
+      "leads": 1286
     },
     {
       "UF": "PE",
       "vendas": 552,
-      "receita": 183764.98
+      "receita": 183764.98,
+      "leads": 3905
     },
     {
       "UF": "PR",
       "vendas": 444,
-      "receita": 118100.13
+      "receita": 118100.13,
+      "leads": 1713
     },
     {
       "UF": "PA",
       "vendas": 364,
-      "receita": 173805.36
+      "receita": 173805.36,
+      "leads": 1931
     },
     {
       "UF": "RS",
       "vendas": 297,
-      "receita": 78970.53
+      "receita": 78970.53,
+      "leads": 382
     },
     {
       "UF": "DF",
       "vendas": 282,
-      "receita": 84587.82
+      "receita": 84587.82,
+      "leads": 1485
     },
     {
       "UF": "RN",
       "vendas": 243,
-      "receita": 70121.31
+      "receita": 70121.31,
+      "leads": 1725
     }
   ],
   "vendedores": [
