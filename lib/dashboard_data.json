@@ -336,7 +336,7 @@
       "receita": 329639.89,
       "ticket": 809.93,
       "gestao": "Administrativo",
-      "supervisorDireto": "Administrativo"
+      "supervisorDireto": "ADMINISTRATIVO"
     },
     {
       "NM_VENDEDOR_PLANO": "MAYARA JADE BANDEIRA BATISTA LIMA",
@@ -352,7 +352,7 @@
       "receita": 88372.81,
       "ticket": 316.75,
       "gestao": "Administrativo",
-      "supervisorDireto": "Administrativo"
+      "supervisorDireto": "ADMINISTRATIVO"
     },
     {
       "NM_VENDEDOR_PLANO": "ANDRESSA LEME BARBOZA",
@@ -360,7 +360,7 @@
       "receita": 50004.76,
       "ticket": 247.55,
       "gestao": "Fabio",
-      "supervisorDireto": "Rebeca Alvino"
+      "supervisorDireto": "REBECA ALVINO"
     },
     {
       "NM_VENDEDOR_PLANO": "GIOVANNA FERREIRA DE FARIAS",
@@ -368,7 +368,7 @@
       "receita": 54886.55,
       "ticket": 288.88,
       "gestao": "Fabio",
-      "supervisorDireto": "Michele Ferreira"
+      "supervisorDireto": "MICHELE FERREIRA"
     },
     {
       "NM_VENDEDOR_PLANO": "ANA THALYTA SAMPAIO PINHEIRO",
@@ -376,7 +376,7 @@
       "receita": 68867.12,
       "ticket": 368.27,
       "gestao": "Administrativo",
-      "supervisorDireto": "Administrativo"
+      "supervisorDireto": "ADMINISTRATIVO"
     },
     {
       "NM_VENDEDOR_PLANO": "CAMILA DE SOUSA GOMES",
@@ -384,7 +384,7 @@
       "receita": 52218.99,
       "ticket": 291.73,
       "gestao": "Fabio",
-      "supervisorDireto": "Priscilla Regis"
+      "supervisorDireto": "PRISCILLA REGIS"
     },
     {
       "NM_VENDEDOR_PLANO": "BRUNA DA SILVA CAMPASSI",
@@ -392,7 +392,7 @@
       "receita": 51346.31,
       "ticket": 296.8,
       "gestao": "Josy",
-      "supervisorDireto": "Humberto Banqueri"
+      "supervisorDireto": "HUMBERTO BANQUERI"
     },
     {
       "NM_VENDEDOR_PLANO": "JAQUELINE APARECIDA CORREIA SILVA",
@@ -400,7 +400,7 @@
       "receita": 49157.57,
       "ticket": 307.23,
       "gestao": "Josy",
-      "supervisorDireto": "Humberto Banqueri"
+      "supervisorDireto": "HUMBERTO BANQUERI"
     },
     {
       "NM_VENDEDOR_PLANO": "MARIANA FELIX MONTEIRO DOS SANTOS",
@@ -408,7 +408,7 @@
       "receita": 44393.34,
       "ticket": 297.94,
       "gestao": "Josy",
-      "supervisorDireto": "Humberto Banqueri"
+      "supervisorDireto": "HUMBERTO BANQUERI"
     },
     {
       "NM_VENDEDOR_PLANO": "ANDREZZA APARECIDA MACHINI",
@@ -416,7 +416,7 @@
       "receita": 46812.31,
       "ticket": 320.63,
       "gestao": "Josy",
-      "supervisorDireto": "Luiz Roberto"
+      "supervisorDireto": "LUIZ ROBERTO"
     },
     {
       "NM_VENDEDOR_PLANO": "FELIPE AUGUSTO DA SILVA SOARES",
@@ -424,7 +424,7 @@
       "receita": 40210.22,
       "ticket": 279.24,
       "gestao": "Fabio",
-      "supervisorDireto": "Priscilla Regis"
+      "supervisorDireto": "PRISCILLA REGIS"
     },
     {
       "NM_VENDEDOR_PLANO": "ANA CAROLINA RIBEIRO ANTUNES",
@@ -432,7 +432,7 @@
       "receita": 47241.13,
       "ticket": 339.86,
       "gestao": "Josy",
-      "supervisorDireto": "Luiz Roberto"
+      "supervisorDireto": "LUIZ ROBERTO"
     },
     {
       "NM_VENDEDOR_PLANO": "ISABELLA CARDOSO DE MATTOS",
@@ -440,7 +440,7 @@
       "receita": 41244.61,
       "ticket": 301.06,
       "gestao": "Josy",
-      "supervisorDireto": "Humberto Banqueri"
+      "supervisorDireto": "HUMBERTO BANQUERI"
     },
     {
       "NM_VENDEDOR_PLANO": "WENDEL PEREIRA DE ANDRADE",
@@ -448,7 +448,1727 @@
       "receita": 38062.43,
       "ticket": 277.83,
       "gestao": "Fabio",
-      "supervisorDireto": "Priscilla Regis"
+      "supervisorDireto": "PRISCILLA REGIS"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "FLAVIANGELO RIBEIRO BATISTA DE SOUSA",
+      "vendas": 136,
+      "receita": 33527.56,
+      "ticket": 246.53,
+      "gestao": "Fabio",
+      "supervisorDireto": "NEFTALY LEONEL"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "JULIANA RODRIGUES NUNES",
+      "vendas": 135,
+      "receita": 48675.0,
+      "ticket": 360.56,
+      "gestao": "Fabio",
+      "supervisorDireto": "ERIKA PAULA"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "BRUNA RODRIGUES DE SOUZA SOARES",
+      "vendas": 133,
+      "receita": 30358.36,
+      "ticket": 228.26,
+      "gestao": "Fabio",
+      "supervisorDireto": "FERNANDA VIZZONI"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "INGRYD MELISSA DA SILVA",
+      "vendas": 128,
+      "receita": 35788.21,
+      "ticket": 279.6,
+      "gestao": "Fabio",
+      "supervisorDireto": "REBECA ALVINO"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "ANDRE BRITO FREITAS",
+      "vendas": 126,
+      "receita": 28756.13,
+      "ticket": 228.22,
+      "gestao": "Fabio",
+      "supervisorDireto": "NEFTALY LEONEL"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "MARIA EDUARDA MAGALHAES SEIXEIRO DOS SANTOS",
+      "vendas": 124,
+      "receita": 35876.12,
+      "ticket": 289.32,
+      "gestao": "Fabio",
+      "supervisorDireto": "PRISCILLA REGIS"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "JULIA ALVES DA SILVA",
+      "vendas": 123,
+      "receita": 44111.82,
+      "ticket": 358.63,
+      "gestao": "Josy",
+      "supervisorDireto": "HUMBERTO BANQUERI"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "MURILO SERGIO SCHMIDT VASSAO",
+      "vendas": 121,
+      "receita": 34824.04,
+      "ticket": 287.8,
+      "gestao": "Fabio",
+      "supervisorDireto": "MICHELE FERREIRA"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "ELISA PEREIRA DO NASCIMENTO",
+      "vendas": 117,
+      "receita": 34761.61,
+      "ticket": 297.11,
+      "gestao": "Fabio",
+      "supervisorDireto": "REBECA ALVINO"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "LUAN PAULINO AMORIM RIBEIRO",
+      "vendas": 116,
+      "receita": 41501.38,
+      "ticket": 357.77,
+      "gestao": "Josy",
+      "supervisorDireto": "REBECA MOURA"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "CYNTIA MODENA",
+      "vendas": 115,
+      "receita": 32896.27,
+      "ticket": 286.05,
+      "gestao": "Fabio",
+      "supervisorDireto": "REBECA ALVINO"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "FELIPE ALVES DE SOUZA",
+      "vendas": 111,
+      "receita": 36658.95,
+      "ticket": 330.26,
+      "gestao": "Josy",
+      "supervisorDireto": "REBECA MOURA"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "ANTONIO RIQUELMY SANTOS ALVES",
+      "vendas": 110,
+      "receita": 37692.96,
+      "ticket": 342.66,
+      "gestao": "Fabio",
+      "supervisorDireto": "NEFTALY LEONEL"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "NATHALY CAUANE VIEIRA BATISTA",
+      "vendas": 109,
+      "receita": 31057.38,
+      "ticket": 284.93,
+      "gestao": "Fabio",
+      "supervisorDireto": "MICHELE FERREIRA"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "TAISSE MACARIO FERNANDES",
+      "vendas": 107,
+      "receita": 32450.32,
+      "ticket": 303.27,
+      "gestao": "Fabio",
+      "supervisorDireto": "FERNANDA VIZZONI"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "LORENA LEVY ORTEGA",
+      "vendas": 102,
+      "receita": 28110.67,
+      "ticket": 275.59,
+      "gestao": "Fabio",
+      "supervisorDireto": "REBECA ALVINO"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "VANESSA CAROLINE ANDRIOTI",
+      "vendas": 102,
+      "receita": 32174.87,
+      "ticket": 315.44,
+      "gestao": "Fabio",
+      "supervisorDireto": "REBECA ALVINO"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "ROBSON FERRARI DE SOUZA",
+      "vendas": 102,
+      "receita": 29008.65,
+      "ticket": 284.4,
+      "gestao": "Josy",
+      "supervisorDireto": "HUMBERTO BANQUERI"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "LARISSA SANTOS BIZELI BANHOS",
+      "vendas": 100,
+      "receita": 27478.62,
+      "ticket": 274.79,
+      "gestao": "Fabio",
+      "supervisorDireto": "PRISCILLA REGIS"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "ISABELLA CRISTINA CHRISPIM DE SOUZA",
+      "vendas": 100,
+      "receita": 33792.53,
+      "ticket": 337.93,
+      "gestao": "Josy",
+      "supervisorDireto": "HUMBERTO BANQUERI"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "LILIANE RIBEIRO RUFINO",
+      "vendas": 99,
+      "receita": 27604.75,
+      "ticket": 278.84,
+      "gestao": "Fabio",
+      "supervisorDireto": "NEFTALY LEONEL"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "DAVI MAGALHAES DE OLIVEIRA",
+      "vendas": 98,
+      "receita": 30774.92,
+      "ticket": 314.03,
+      "gestao": "Fabio",
+      "supervisorDireto": "NEFTALY LEONEL"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "LENILSON DE SENA GOMES",
+      "vendas": 97,
+      "receita": 33253.35,
+      "ticket": 342.82,
+      "gestao": "Fabio",
+      "supervisorDireto": "GONCALO MARTINS"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "DELIANE GONZAGA GOMES",
+      "vendas": 97,
+      "receita": 29182.67,
+      "ticket": 300.85,
+      "gestao": "Josy",
+      "supervisorDireto": "HUMBERTO BANQUERI"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "ADMINISTR / HAPVIDA",
+      "vendas": 95,
+      "receita": 32175.56,
+      "ticket": 338.69,
+      "gestao": "Administrativo",
+      "supervisorDireto": "ADMINISTRATIVO"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "RAIANE MARCELINA CARDOSO SANTOS",
+      "vendas": 94,
+      "receita": 26754.08,
+      "ticket": 284.62,
+      "gestao": "Fabio",
+      "supervisorDireto": "REBECA ALVINO"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "RENAN DOS SANTOS OLIVEIRA",
+      "vendas": 94,
+      "receita": 24227.45,
+      "ticket": 257.74,
+      "gestao": "Fabio",
+      "supervisorDireto": "PRISCILLA REGIS"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "FRANCISCO KAYKY BERNARDO MOREIRA",
+      "vendas": 93,
+      "receita": 30058.24,
+      "ticket": 323.21,
+      "gestao": "Fabio",
+      "supervisorDireto": "GONCALO MARTINS"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "ELISAMA GIZZI RODRIGUES",
+      "vendas": 91,
+      "receita": 32685.66,
+      "ticket": 359.18,
+      "gestao": "Josy",
+      "supervisorDireto": "REBECA MOURA"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "RAYANE ROCHA LOPES",
+      "vendas": 91,
+      "receita": 28060.17,
+      "ticket": 308.35,
+      "gestao": "Josy",
+      "supervisorDireto": "LUIZ ROBERTO"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "ALINE CRISTINA GUNELLO",
+      "vendas": 90,
+      "receita": 34288.38,
+      "ticket": 380.98,
+      "gestao": "Josy",
+      "supervisorDireto": "HUMBERTO BANQUERI"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "ROMARIO DE SOUZA SILVA",
+      "vendas": 90,
+      "receita": 35127.75,
+      "ticket": 390.31,
+      "gestao": "Fabio",
+      "supervisorDireto": "GONCALO MARTINS"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "PATRICIA AKEMI SHIMADA JORGE",
+      "vendas": 88,
+      "receita": 24098.17,
+      "ticket": 273.84,
+      "gestao": "Fabio",
+      "supervisorDireto": "FERNANDA VIZZONI"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "SOFIA LUNGA SILVA DE DEUS",
+      "vendas": 88,
+      "receita": 29797.67,
+      "ticket": 338.61,
+      "gestao": "Josy",
+      "supervisorDireto": "LUIZ ROBERTO"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "JENNIFER DE LOURDES FERREIRA FARIAS",
+      "vendas": 87,
+      "receita": 27768.1,
+      "ticket": 319.17,
+      "gestao": "Fabio",
+      "supervisorDireto": "MICHELE FERREIRA"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "ATILEY ARAUJO CAMPOS",
+      "vendas": 87,
+      "receita": 25230.55,
+      "ticket": 290.01,
+      "gestao": "Fabio",
+      "supervisorDireto": "NEFTALY LEONEL"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "LIVIA GABRIELA REIS ROCHA DOS SANTOS",
+      "vendas": 87,
+      "receita": 23425.23,
+      "ticket": 269.26,
+      "gestao": "Fabio",
+      "supervisorDireto": "FERNANDA VIZZONI"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "MARA DANIELLE MUZELL BECK",
+      "vendas": 87,
+      "receita": 25021.63,
+      "ticket": 287.6,
+      "gestao": "Josy",
+      "supervisorDireto": "BENVE"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "HERIKA GASPAR ZACARQUIM",
+      "vendas": 85,
+      "receita": 27413.46,
+      "ticket": 322.51,
+      "gestao": "Fabio",
+      "supervisorDireto": "CAROLINE GUERKE"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "RAFAELA CRISTINA DOS SANTOS",
+      "vendas": 85,
+      "receita": 23895.09,
+      "ticket": 281.12,
+      "gestao": "Fabio",
+      "supervisorDireto": "CAROLINE GUERKE"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "MIRIAM SUSETE FERREIRA",
+      "vendas": 85,
+      "receita": 30563.25,
+      "ticket": 359.57,
+      "gestao": "Josy",
+      "supervisorDireto": "LUIZ ROBERTO"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "ANTONIO DAVI ASSUNCAO DE SOUZA",
+      "vendas": 82,
+      "receita": 27743.68,
+      "ticket": 338.34,
+      "gestao": "Fabio",
+      "supervisorDireto": "GONCALO MARTINS"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "RAIANE DA SILVA LIMA",
+      "vendas": 81,
+      "receita": 27825.56,
+      "ticket": 343.53,
+      "gestao": "Josy",
+      "supervisorDireto": "LUIZ ROBERTO"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "KAUAN REGIS SOUZA SAMPAIO",
+      "vendas": 80,
+      "receita": 18681.82,
+      "ticket": 233.52,
+      "gestao": "Fabio",
+      "supervisorDireto": "NEFTALY LEONEL"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "LEIDIANE SILVA DE CASTRO",
+      "vendas": 79,
+      "receita": 25621.53,
+      "ticket": 324.32,
+      "gestao": "Fabio",
+      "supervisorDireto": "GONCALO MARTINS"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "JOAO VICTOR DE FREITAS NUNES DA SILVA",
+      "vendas": 79,
+      "receita": 16493.16,
+      "ticket": 208.77,
+      "gestao": "Fabio",
+      "supervisorDireto": "NEFTALY LEONEL"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "JONATHAS DOS REIS SA",
+      "vendas": 79,
+      "receita": 27272.27,
+      "ticket": 345.22,
+      "gestao": "Fabio",
+      "supervisorDireto": "ERIKA PAULA"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "GUSTAVO DE SOUZA BARROS",
+      "vendas": 79,
+      "receita": 30910.09,
+      "ticket": 391.27,
+      "gestao": "Josy",
+      "supervisorDireto": "REBECA MOURA"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "JONATAS LOPES QUARESMA",
+      "vendas": 77,
+      "receita": 25305.64,
+      "ticket": 328.64,
+      "gestao": "Fabio",
+      "supervisorDireto": "GONCALO MARTINS"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "KETHELYN VITORIA APARECIDA GUIDO",
+      "vendas": 76,
+      "receita": 16842.75,
+      "ticket": 221.62,
+      "gestao": "Fabio",
+      "supervisorDireto": "PRISCILLA REGIS"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "ANA JULIA LOPES INACIO",
+      "vendas": 75,
+      "receita": 19507.77,
+      "ticket": 260.1,
+      "gestao": "Fabio",
+      "supervisorDireto": "ERIKA PAULA"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "JULIA MARQUES BALDISSERA",
+      "vendas": 75,
+      "receita": 32813.09,
+      "ticket": 437.51,
+      "gestao": "Josy",
+      "supervisorDireto": "BENVE"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "ALAN KELBER FERREIRA LEAL",
+      "vendas": 74,
+      "receita": 26068.39,
+      "ticket": 352.28,
+      "gestao": "Fabio",
+      "supervisorDireto": "GONCALO MARTINS"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "GIOVANNA CAROLINA SOUSA BARBIERI",
+      "vendas": 73,
+      "receita": 26599.62,
+      "ticket": 364.38,
+      "gestao": "Josy",
+      "supervisorDireto": "HUMBERTO BANQUERI"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "GISELE CRISTINA DE OLIVEIRA",
+      "vendas": 72,
+      "receita": 21263.33,
+      "ticket": 295.32,
+      "gestao": "Fabio",
+      "supervisorDireto": "REBECA ALVINO"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "THAINA VITORIA MACEDO BERCHELI",
+      "vendas": 72,
+      "receita": 23456.11,
+      "ticket": 325.78,
+      "gestao": "Josy",
+      "supervisorDireto": "REBECA MOURA"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "MARCELA MONTANARI DA SILVA",
+      "vendas": 72,
+      "receita": 27138.36,
+      "ticket": 376.92,
+      "gestao": "Josy",
+      "supervisorDireto": "LUIZ ROBERTO"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "GABRIELA BEATRIZ DOS REIS SILVA",
+      "vendas": 70,
+      "receita": 21812.08,
+      "ticket": 311.6,
+      "gestao": "Josy",
+      "supervisorDireto": "REBECA MOURA"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "LUCIANA TRIPICCHIO LIMA",
+      "vendas": 69,
+      "receita": 33835.46,
+      "ticket": 490.37,
+      "gestao": "Josy",
+      "supervisorDireto": "HUMBERTO BANQUERI"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "THAISA DOMINGOS DE ALMEIDA",
+      "vendas": 67,
+      "receita": 20656.01,
+      "ticket": 308.3,
+      "gestao": "Josy",
+      "supervisorDireto": "LUIZ ROBERTO"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "LARISSY RANY ALMEIDA RAMOS",
+      "vendas": 66,
+      "receita": 20753.52,
+      "ticket": 314.45,
+      "gestao": "Fabio",
+      "supervisorDireto": "NEFTALY LEONEL"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "LUANA DOS SANTOS ARAUJO",
+      "vendas": 65,
+      "receita": 24797.45,
+      "ticket": 381.5,
+      "gestao": "Fabio",
+      "supervisorDireto": "GONCALO MARTINS"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "MATEUS GARCIA",
+      "vendas": 64,
+      "receita": 19453.94,
+      "ticket": 303.97,
+      "gestao": "Fabio",
+      "supervisorDireto": "CAROLINE GUERKE"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "GLEIRE ALVES VALERIO",
+      "vendas": 64,
+      "receita": 21465.12,
+      "ticket": 335.39,
+      "gestao": "Josy",
+      "supervisorDireto": "HUMBERTO BANQUERI"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "ROGERIO STIVANELLO MARTINS",
+      "vendas": 64,
+      "receita": 20659.05,
+      "ticket": 322.8,
+      "gestao": "Josy",
+      "supervisorDireto": "REBECA MOURA"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "PAULA MENDES DE JESUS",
+      "vendas": 64,
+      "receita": 19430.97,
+      "ticket": 303.61,
+      "gestao": "Josy",
+      "supervisorDireto": "REBECA MOURA"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "EDILEIA FERREIRA DOS SANTOS",
+      "vendas": 64,
+      "receita": 22207.21,
+      "ticket": 346.99,
+      "gestao": "Fabio",
+      "supervisorDireto": "ERIKA PAULA"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "ALINE PEREIRA RIBEIRO",
+      "vendas": 63,
+      "receita": 19733.69,
+      "ticket": 313.23,
+      "gestao": "Josy",
+      "supervisorDireto": "HUMBERTO BANQUERI"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "ADRIANI CRISTINI DZIERVA DEVOLATKA",
+      "vendas": 62,
+      "receita": 21430.04,
+      "ticket": 345.65,
+      "gestao": "Fabio",
+      "supervisorDireto": "CAROLINE GUERKE"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "LIDIANE APARECIDA MALTA",
+      "vendas": 62,
+      "receita": 15213.02,
+      "ticket": 245.37,
+      "gestao": "Fabio",
+      "supervisorDireto": "REBECA ALVINO"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "ALINE CRISTINA GRUNELLO",
+      "vendas": 61,
+      "receita": 18528.11,
+      "ticket": 303.74,
+      "gestao": "Josy",
+      "supervisorDireto": "HUMBERTO BANQUERI"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "MOOARA VIEIRA RODRIGUES",
+      "vendas": 61,
+      "receita": 24233.47,
+      "ticket": 397.27,
+      "gestao": "Josy",
+      "supervisorDireto": "HUMBERTO BANQUERI"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "ISABELLE RIBEIRO DA PENHA SOARES",
+      "vendas": 60,
+      "receita": 20469.39,
+      "ticket": 341.16,
+      "gestao": "Fabio",
+      "supervisorDireto": "ERIKA PAULA"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "ANTERVANIA DA SILVA NASCIMENTO",
+      "vendas": 60,
+      "receita": 18867.81,
+      "ticket": 314.46,
+      "gestao": "Fabio",
+      "supervisorDireto": "ERIKA PAULA"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "FRANCISCO THIAGO FURTADO DA SILVA",
+      "vendas": 59,
+      "receita": 13912.57,
+      "ticket": 235.81,
+      "gestao": "Fabio",
+      "supervisorDireto": "NEFTALY LEONEL"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "FRANCISCO ARLLYSON DA SILVA SEVERINO",
+      "vendas": 59,
+      "receita": 16788.71,
+      "ticket": 284.55,
+      "gestao": "Fabio",
+      "supervisorDireto": "NEFTALY LEONEL"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "ANA BEATRIZ SANTOS MACHUCA",
+      "vendas": 58,
+      "receita": 22455.61,
+      "ticket": 387.17,
+      "gestao": "Josy",
+      "supervisorDireto": "BENVE"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "MARIA EDUARDA ARAUJO FRANCA DE SOUZA",
+      "vendas": 57,
+      "receita": 13743.59,
+      "ticket": 241.12,
+      "gestao": "Fabio",
+      "supervisorDireto": "NEFTALY LEONEL"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "RAISSA OLIVEIRA BURIN",
+      "vendas": 57,
+      "receita": 18180.93,
+      "ticket": 318.96,
+      "gestao": "Josy",
+      "supervisorDireto": "LUIZ ROBERTO"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "LARISSA SILVA MACHADO",
+      "vendas": 56,
+      "receita": 15905.57,
+      "ticket": 284.03,
+      "gestao": "Fabio",
+      "supervisorDireto": "FERNANDA VIZZONI"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "JADY FERNANDA BERTOLAI DE QUEIROZ",
+      "vendas": 56,
+      "receita": 19570.12,
+      "ticket": 349.47,
+      "gestao": "Josy",
+      "supervisorDireto": "LUIZ ROBERTO"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "KEILA VITORIA SANTOS DE OLIVEIRA",
+      "vendas": 55,
+      "receita": 21367.58,
+      "ticket": 388.5,
+      "gestao": "Josy",
+      "supervisorDireto": "REBECA MOURA"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "KAMILA KELLY KUNER",
+      "vendas": 54,
+      "receita": 17251.75,
+      "ticket": 319.48,
+      "gestao": "Josy",
+      "supervisorDireto": "REBECA MOURA"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "UNILDO FERREIRA GOIS JUNIOR",
+      "vendas": 54,
+      "receita": 19017.75,
+      "ticket": 352.18,
+      "gestao": "Josy",
+      "supervisorDireto": "LUIZ ROBERTO"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "JANEILA DOS SANTOS FIGUEIREDO",
+      "vendas": 54,
+      "receita": 19712.74,
+      "ticket": 365.05,
+      "gestao": "Josy",
+      "supervisorDireto": "LUIZ ROBERTO"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "PAULO LEVI COSTA DOS SANTOS",
+      "vendas": 54,
+      "receita": 15817.05,
+      "ticket": 292.91,
+      "gestao": "Fabio",
+      "supervisorDireto": "GONCALO MARTINS"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "ANA PAULA APARECIDA CAMPANA",
+      "vendas": 53,
+      "receita": 18632.03,
+      "ticket": 351.55,
+      "gestao": "Josy",
+      "supervisorDireto": "HUMBERTO BANQUERI"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "CLEBSON ALVES DE QUEIROZ ANDRADE",
+      "vendas": 53,
+      "receita": 18741.84,
+      "ticket": 353.62,
+      "gestao": "Fabio",
+      "supervisorDireto": "ERIKA PAULA"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "KAROL PONTES BUENO",
+      "vendas": 52,
+      "receita": 13734.99,
+      "ticket": 264.13,
+      "gestao": "Fabio",
+      "supervisorDireto": "CAROLINE GUERKE"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "CAMILA LEAO MOREIRA",
+      "vendas": 52,
+      "receita": 16659.53,
+      "ticket": 320.38,
+      "gestao": "Josy",
+      "supervisorDireto": "BENVE"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "MARIA APARECIDA CORREA DA SILVA",
+      "vendas": 52,
+      "receita": 18093.49,
+      "ticket": 347.95,
+      "gestao": "Josy",
+      "supervisorDireto": "REBECA MOURA"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "FLAVIA REGINA ROMBACH",
+      "vendas": 51,
+      "receita": 14274.83,
+      "ticket": 279.9,
+      "gestao": "Fabio",
+      "supervisorDireto": "CAROLINE GUERKE"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "ALRIAN SOARES DE ARAUJO",
+      "vendas": 50,
+      "receita": 18070.49,
+      "ticket": 361.41,
+      "gestao": "Fabio",
+      "supervisorDireto": "ERIKA PAULA"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "CINTIA FERREIRA EDUARDO",
+      "vendas": 49,
+      "receita": 12895.9,
+      "ticket": 263.18,
+      "gestao": "Fabio",
+      "supervisorDireto": "REBECA ALVINO"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "CAROLINE AGAR EGIDIO FRAGA",
+      "vendas": 49,
+      "receita": 15182.22,
+      "ticket": 309.84,
+      "gestao": "Fabio",
+      "supervisorDireto": "FERNANDA VIZZONI"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "FRANCISCA VLADIA DE ARAUJO SOARES",
+      "vendas": 49,
+      "receita": 16951.31,
+      "ticket": 345.95,
+      "gestao": "Fabio",
+      "supervisorDireto": "ERIKA PAULA"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "ANTONIO DE PADUA PEREIRA NOBRE",
+      "vendas": 49,
+      "receita": 17317.32,
+      "ticket": 353.41,
+      "gestao": "Fabio",
+      "supervisorDireto": "ERIKA PAULA"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "TAIS AMANDA CARDOSO PIRES",
+      "vendas": 48,
+      "receita": 16923.12,
+      "ticket": 352.56,
+      "gestao": "Fabio",
+      "supervisorDireto": "GONCALO MARTINS"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "EDILZA JACIRA DA SILVA BRAGA",
+      "vendas": 47,
+      "receita": 14192.32,
+      "ticket": 301.96,
+      "gestao": "Fabio",
+      "supervisorDireto": "PRISCILLA REGIS"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "DANILO APARECIDO CLAUDINO FOGACA",
+      "vendas": 46,
+      "receita": 13718.7,
+      "ticket": 298.23,
+      "gestao": "Josy",
+      "supervisorDireto": "LUIZ ROBERTO"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "VITORIA LARYSSA LIMA DE BRITO",
+      "vendas": 46,
+      "receita": 15339.27,
+      "ticket": 333.46,
+      "gestao": "Fabio",
+      "supervisorDireto": "ERIKA PAULA"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "LEIDIANE DA SILVA PAULINO",
+      "vendas": 46,
+      "receita": 21333.95,
+      "ticket": 463.78,
+      "gestao": "Fabio",
+      "supervisorDireto": "ERIKA PAULA"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "TAIS SILVEIRA COLARES",
+      "vendas": 44,
+      "receita": 15292.9,
+      "ticket": 347.57,
+      "gestao": "Josy",
+      "supervisorDireto": "BENVE"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "LAIANE BEATRIZ REIS ROCHA",
+      "vendas": 42,
+      "receita": 10687.98,
+      "ticket": 254.48,
+      "gestao": "Fabio",
+      "supervisorDireto": "FERNANDA VIZZONI"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "LUIZ FELIPE TEOBALDO DO NASCIMENTO",
+      "vendas": 41,
+      "receita": 13613.96,
+      "ticket": 332.05,
+      "gestao": "Fabio",
+      "supervisorDireto": "NEFTALY LEONEL"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "ISAQUE VICTOR ALVES FERREIRA",
+      "vendas": 41,
+      "receita": 17224.04,
+      "ticket": 420.1,
+      "gestao": "Josy",
+      "supervisorDireto": "HUMBERTO BANQUERI"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "GESSICA NOGUEIRA DE PAULO",
+      "vendas": 41,
+      "receita": 11763.53,
+      "ticket": 286.92,
+      "gestao": "Fabio",
+      "supervisorDireto": "GONCALO MARTINS"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "JULIO CESAR ARARIPE DA COSTA",
+      "vendas": 40,
+      "receita": 16238.4,
+      "ticket": 405.96,
+      "gestao": "Fabio",
+      "supervisorDireto": "GONCALO MARTINS"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "ESTELA CORDEIRO DE OLIVEIRA",
+      "vendas": 39,
+      "receita": 11095.22,
+      "ticket": 284.49,
+      "gestao": "Fabio",
+      "supervisorDireto": "MICHELE FERREIRA"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "LARISSA FERNANDA PAES",
+      "vendas": 39,
+      "receita": 12455.63,
+      "ticket": 319.38,
+      "gestao": "Josy",
+      "supervisorDireto": "HUMBERTO BANQUERI"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "NATALIA TRONI LEITE",
+      "vendas": 39,
+      "receita": 10341.44,
+      "ticket": 265.17,
+      "gestao": "Fabio",
+      "supervisorDireto": "FERNANDA VIZZONI"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "MARCIA REGINA DE SOUZA",
+      "vendas": 39,
+      "receita": 10406.97,
+      "ticket": 266.85,
+      "gestao": "Fabio",
+      "supervisorDireto": "PRISCILLA REGIS"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "MIKAELLY CAMILY MICHELINI SILVA",
+      "vendas": 38,
+      "receita": 14452.52,
+      "ticket": 380.33,
+      "gestao": "Josy",
+      "supervisorDireto": "REBECA MOURA"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "CRISTINA LOPES OLIVEIRA DA SILVEIRA",
+      "vendas": 38,
+      "receita": 10767.26,
+      "ticket": 283.35,
+      "gestao": "Josy",
+      "supervisorDireto": "BENVE"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "JOICE ALINE LUZ DA SILVA",
+      "vendas": 37,
+      "receita": 12426.32,
+      "ticket": 335.85,
+      "gestao": "Josy",
+      "supervisorDireto": "BENVE"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "BRUNO GARCIA FERREIRA",
+      "vendas": 37,
+      "receita": 11380.2,
+      "ticket": 307.57,
+      "gestao": "Josy",
+      "supervisorDireto": "LUIZ ROBERTO"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "SARA MAYARA SOUSA DO NASCIMENTO",
+      "vendas": 36,
+      "receita": 12936.94,
+      "ticket": 359.36,
+      "gestao": "Fabio",
+      "supervisorDireto": "GONCALO MARTINS"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "JOYCE VASCONCELOS OLIVEIRA",
+      "vendas": 36,
+      "receita": 12454.21,
+      "ticket": 345.95,
+      "gestao": "Fabio",
+      "supervisorDireto": "GONCALO MARTINS"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "PAULA EUNICE LOURENCO ABREU",
+      "vendas": 35,
+      "receita": 12373.53,
+      "ticket": 353.53,
+      "gestao": "Fabio",
+      "supervisorDireto": "FERNANDA VIZZONI"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "LUCIANE SILVA DE LIMA",
+      "vendas": 35,
+      "receita": 11534.46,
+      "ticket": 329.56,
+      "gestao": "Fabio",
+      "supervisorDireto": "GONCALO MARTINS"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "MARAISA FERNANDA MIGUEL",
+      "vendas": 34,
+      "receita": 11075.07,
+      "ticket": 325.74,
+      "gestao": "Fabio",
+      "supervisorDireto": "FERNANDA VIZZONI"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "THAMIRIS FRANCISQUELLI",
+      "vendas": 34,
+      "receita": 11289.85,
+      "ticket": 332.05,
+      "gestao": "Josy",
+      "supervisorDireto": "LUIZ ROBERTO"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "ANA JULIA FIORIO DE BRITO DA COSTA",
+      "vendas": 33,
+      "receita": 9460.35,
+      "ticket": 286.68,
+      "gestao": "Josy",
+      "supervisorDireto": "HUMBERTO BANQUERI"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "BRENA KELLY ARAUJO PAIVA",
+      "vendas": 32,
+      "receita": 7903.53,
+      "ticket": 246.99,
+      "gestao": "Fabio",
+      "supervisorDireto": "ERIKA PAULA"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "SONIA FERNANDES LINO",
+      "vendas": 31,
+      "receita": 11579.05,
+      "ticket": 373.52,
+      "gestao": "Josy",
+      "supervisorDireto": "LUIZ ROBERTO"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "KAUAN PEREIRA PRATES DOS SANTOS",
+      "vendas": 30,
+      "receita": 10961.77,
+      "ticket": 365.39,
+      "gestao": "Não identificado",
+      "supervisorDireto": "ACTIONLINE"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "JOAO PEDRO DEL NERO LIMA",
+      "vendas": 29,
+      "receita": 8731.34,
+      "ticket": 301.08,
+      "gestao": "Fabio",
+      "supervisorDireto": "REBECA ALVINO"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "YGOR OLIVEIRA DE SOUSA",
+      "vendas": 28,
+      "receita": 8890.3,
+      "ticket": 317.51,
+      "gestao": "Josy",
+      "supervisorDireto": "HUMBERTO BANQUERI"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "MARIA EDUARDA GOMES DA SILVA",
+      "vendas": 28,
+      "receita": 9617.26,
+      "ticket": 343.47,
+      "gestao": "Josy",
+      "supervisorDireto": "LUIZ ROBERTO"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "ISABELLA DE OLIVEIRA MICHELETO",
+      "vendas": 27,
+      "receita": 8497.56,
+      "ticket": 314.72,
+      "gestao": "Fabio",
+      "supervisorDireto": "FERNANDA VIZZONI"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "BRENA KELY ARAUJO PAIVA",
+      "vendas": 26,
+      "receita": 10319.55,
+      "ticket": 396.91,
+      "gestao": "Fabio",
+      "supervisorDireto": "ERIKA PAULA"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "KAMILA GLAYR GARCIA DE OLIVEIRA",
+      "vendas": 25,
+      "receita": 8852.82,
+      "ticket": 354.11,
+      "gestao": "Josy",
+      "supervisorDireto": "LUIZ ROBERTO"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "GABRIELA DE PAULA MORAES",
+      "vendas": 24,
+      "receita": 7055.33,
+      "ticket": 293.97,
+      "gestao": "Fabio",
+      "supervisorDireto": "REBECA ALVINO"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "HAPVIDA ASSISTENCIA MEDICA LTDA RECIFE",
+      "vendas": 24,
+      "receita": 9689.78,
+      "ticket": 403.74,
+      "gestao": "Não identificado",
+      "supervisorDireto": "Não identificado"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "NATALIA DA SILVA BORGES",
+      "vendas": 23,
+      "receita": 8253.71,
+      "ticket": 358.86,
+      "gestao": "Josy",
+      "supervisorDireto": "REBECA MOURA"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "NAYARA GOMES DA SILVA",
+      "vendas": 22,
+      "receita": 7983.0,
+      "ticket": 362.86,
+      "gestao": "Fabio",
+      "supervisorDireto": "FERNANDA VIZZONI"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "TATIANA APARECIDA GOMES DA SILVA",
+      "vendas": 22,
+      "receita": 7446.21,
+      "ticket": 338.46,
+      "gestao": "Josy",
+      "supervisorDireto": "LUIZ ROBERTO"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "GIOVANNA JERONIMO SANTANA",
+      "vendas": 21,
+      "receita": 5002.35,
+      "ticket": 238.21,
+      "gestao": "Josy",
+      "supervisorDireto": "HUMBERTO BANQUERI"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "BEATRIZ DOMINGOS CORDEIRO",
+      "vendas": 20,
+      "receita": 6164.16,
+      "ticket": 308.21,
+      "gestao": "Josy",
+      "supervisorDireto": "REBECA MOURA"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "TAIS SILVEIRA COLLARES",
+      "vendas": 20,
+      "receita": 7089.08,
+      "ticket": 354.45,
+      "gestao": "Josy",
+      "supervisorDireto": "BENVE"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "ROGÉRIO STIVANELLO MARTINS",
+      "vendas": 19,
+      "receita": 6785.01,
+      "ticket": 357.11,
+      "gestao": "Josy",
+      "supervisorDireto": "REBECA MOURA"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "LUANA LIMA JORGE DA SILVA",
+      "vendas": 19,
+      "receita": 4186.88,
+      "ticket": 220.36,
+      "gestao": "Fabio",
+      "supervisorDireto": "NEFTALY LEONEL"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "RAFAELA BRUNA CLAUDIA DE SOUSA",
+      "vendas": 19,
+      "receita": 9015.79,
+      "ticket": 474.52,
+      "gestao": "Fabio",
+      "supervisorDireto": "GONCALO MARTINS"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "PATRICIA DE SOUSA LIMA",
+      "vendas": 18,
+      "receita": 4795.93,
+      "ticket": 266.44,
+      "gestao": "Josy",
+      "supervisorDireto": "HUMBERTO BANQUERI"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "AMANDA DIAS DE SOUZA",
+      "vendas": 18,
+      "receita": 6502.93,
+      "ticket": 361.27,
+      "gestao": "Josy",
+      "supervisorDireto": "LUIZ ROBERTO"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "ANA JULIA FIORIO DE BRITO",
+      "vendas": 18,
+      "receita": 5840.32,
+      "ticket": 324.46,
+      "gestao": "Josy",
+      "supervisorDireto": "HUMBERTO BANQUERI"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "LIGIVANIA SILVA",
+      "vendas": 18,
+      "receita": 5230.87,
+      "ticket": 290.6,
+      "gestao": "Josy",
+      "supervisorDireto": "LUIZ ROBERTO"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "CARINA CRISTINA DIAS SIENA CORTEZ",
+      "vendas": 18,
+      "receita": 6781.15,
+      "ticket": 376.73,
+      "gestao": "Josy",
+      "supervisorDireto": "LUIZ ROBERTO"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "ISABELLA LOTUFO NERES DA SILVA",
+      "vendas": 17,
+      "receita": 5534.5,
+      "ticket": 325.56,
+      "gestao": "Não identificado",
+      "supervisorDireto": "ACTIONLINE"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "BEATRIZ GIGLIO MADEIRA",
+      "vendas": 17,
+      "receita": 7009.88,
+      "ticket": 412.35,
+      "gestao": "Josy",
+      "supervisorDireto": "LUIZ ROBERTO"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "SABRINA ELOA GIOLO",
+      "vendas": 15,
+      "receita": 3763.6,
+      "ticket": 250.91,
+      "gestao": "Josy",
+      "supervisorDireto": "LUIZ ROBERTO"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "ANDREA FERREIRA DE SOUZA ANTUNES",
+      "vendas": 14,
+      "receita": 4697.43,
+      "ticket": 335.53,
+      "gestao": "Josy",
+      "supervisorDireto": "LUIZ ROBERTO"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "SUELEN CARINE MICHEVICZ DOS REIS",
+      "vendas": 14,
+      "receita": 3172.28,
+      "ticket": 226.59,
+      "gestao": "Josy",
+      "supervisorDireto": "BENVE"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "SUELLEN RESENDE GUIMARAES",
+      "vendas": 13,
+      "receita": 3481.26,
+      "ticket": 267.79,
+      "gestao": "Josy",
+      "supervisorDireto": "HUMBERTO BANQUERI"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "MARIA INGRID MARREIRA FERNANDES",
+      "vendas": 12,
+      "receita": 2099.99,
+      "ticket": 175.0,
+      "gestao": "Fabio",
+      "supervisorDireto": "NEFTALY LEONEL"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "RENATO DE CARVALHO DE JESUS",
+      "vendas": 12,
+      "receita": 3600.43,
+      "ticket": 300.04,
+      "gestao": "Josy",
+      "supervisorDireto": "LUIZ ROBERTO"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "DOUGLAS APARECIDO BATISTA DA SILVA",
+      "vendas": 12,
+      "receita": 3472.53,
+      "ticket": 289.38,
+      "gestao": "Não identificado",
+      "supervisorDireto": "ACTIONLINE"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "WESLEY BACOCCINI",
+      "vendas": 12,
+      "receita": 4002.17,
+      "ticket": 333.51,
+      "gestao": "Josy",
+      "supervisorDireto": "REBECA MOURA"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "HELENA PAULINO AMORIM RIBEIRO",
+      "vendas": 12,
+      "receita": 3211.64,
+      "ticket": 267.64,
+      "gestao": "Josy",
+      "supervisorDireto": "HUMBERTO BANQUERI"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "MARISVALDO SILVA DE SOUZA",
+      "vendas": 12,
+      "receita": 3819.02,
+      "ticket": 318.25,
+      "gestao": "Fabio",
+      "supervisorDireto": "PRISCILLA REGIS"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "MARIANA ISABELA DE PAULA PRADO",
+      "vendas": 11,
+      "receita": 2681.11,
+      "ticket": 243.74,
+      "gestao": "Josy",
+      "supervisorDireto": "HUMBERTO BANQUERI"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "JENIFER CAROLINE DA SILVA IRENO RODRIGUES",
+      "vendas": 11,
+      "receita": 3136.52,
+      "ticket": 285.14,
+      "gestao": "Josy",
+      "supervisorDireto": "BENVE"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "MURILLO TRINDADE RODRIGUEZ",
+      "vendas": 10,
+      "receita": 2388.05,
+      "ticket": 238.81,
+      "gestao": "Josy",
+      "supervisorDireto": "HUMBERTO BANQUERI"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "JESSICA COSTA DA SILVA",
+      "vendas": 8,
+      "receita": 2648.59,
+      "ticket": 331.07,
+      "gestao": "Josy",
+      "supervisorDireto": "REBECA MOURA"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "ADMINISTRATIVO FILIAL BELEM",
+      "vendas": 8,
+      "receita": 2374.4,
+      "ticket": 296.8,
+      "gestao": "Não identificado",
+      "supervisorDireto": "Não identificado"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "NATALIA DA SILVA ALVES LOURENCO",
+      "vendas": 7,
+      "receita": 1635.11,
+      "ticket": 233.59,
+      "gestao": "Josy",
+      "supervisorDireto": "HUMBERTO BANQUERI"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "HAPVIDA ASSISTENCIA MEDICA LTDA NATAL",
+      "vendas": 7,
+      "receita": 3921.41,
+      "ticket": 560.2,
+      "gestao": "Não identificado",
+      "supervisorDireto": "Não identificado"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "DANIELLE DE JESUS ALEXANDRE",
+      "vendas": 7,
+      "receita": 1679.74,
+      "ticket": 239.96,
+      "gestao": "Josy",
+      "supervisorDireto": "HUMBERTO BANQUERI"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "ANNA MEL MONTEIRO DA CRUZ",
+      "vendas": 6,
+      "receita": 1544.52,
+      "ticket": 257.42,
+      "gestao": "Josy",
+      "supervisorDireto": "BENVE"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "JOSE MARCOS ZAMPAR",
+      "vendas": 6,
+      "receita": 1739.95,
+      "ticket": 289.99,
+      "gestao": "Josy",
+      "supervisorDireto": "LUIZ ROBERTO"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "HAPVIDA ASSISTENCIA MEDICA LTDA SALVADOR",
+      "vendas": 6,
+      "receita": 2004.22,
+      "ticket": 334.04,
+      "gestao": "Não identificado",
+      "supervisorDireto": "Não identificado"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "ELAINE CRISTINA SANTOS DE MELO",
+      "vendas": 6,
+      "receita": 2073.85,
+      "ticket": 345.64,
+      "gestao": "Não identificado",
+      "supervisorDireto": "ACTIONLINE"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "RITA DE CASSIA CARNEIRO SAMPAIO",
+      "vendas": 5,
+      "receita": 1371.12,
+      "ticket": 274.22,
+      "gestao": "Fabio",
+      "supervisorDireto": "ERIKA PAULA"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "SABRINA SUM DUTRA",
+      "vendas": 5,
+      "receita": 3775.0,
+      "ticket": 755.0,
+      "gestao": "Josy",
+      "supervisorDireto": "BENVE"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "TAÍS SILVEIRA COLLARES",
+      "vendas": 4,
+      "receita": 1088.73,
+      "ticket": 272.18,
+      "gestao": "Josy",
+      "supervisorDireto": "BENVE"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "LUZINETE DE SOUZA DOURADO FERREIRA",
+      "vendas": 4,
+      "receita": 1944.18,
+      "ticket": 486.05,
+      "gestao": "Josy",
+      "supervisorDireto": "HUMBERTO BANQUERI"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "JESSICA COSTA",
+      "vendas": 4,
+      "receita": 2371.39,
+      "ticket": 592.85,
+      "gestao": "Josy",
+      "supervisorDireto": "REBECA MOURA"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "MONALISA CREVISAN BENÍCIO",
+      "vendas": 4,
+      "receita": 996.87,
+      "ticket": 249.22,
+      "gestao": "Não identificado",
+      "supervisorDireto": "ACTIONLINE"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "EDUARDO NAUMANN DOS SANTOS",
+      "vendas": 4,
+      "receita": 1028.1,
+      "ticket": 257.02,
+      "gestao": "Fabio",
+      "supervisorDireto": "MICHELE FERREIRA"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "ELLEN KIARA TEIXEIRA BELEM",
+      "vendas": 3,
+      "receita": 1302.38,
+      "ticket": 434.13,
+      "gestao": "Fabio",
+      "supervisorDireto": "PRISCILLA REGIS"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "VITÓRIA LARYSSA LIMA DE BRITO",
+      "vendas": 3,
+      "receita": 710.3,
+      "ticket": 236.77,
+      "gestao": "Fabio",
+      "supervisorDireto": "ERIKA PAULA"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "CAMILA LEÃO MOREIRA",
+      "vendas": 3,
+      "receita": 774.29,
+      "ticket": 258.1,
+      "gestao": "Josy",
+      "supervisorDireto": "BENVE"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "BEATRIZ GIGLIO MOREIRA",
+      "vendas": 3,
+      "receita": 602.68,
+      "ticket": 200.89,
+      "gestao": "Josy",
+      "supervisorDireto": "LUIZ ROBERTO"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "SHEILA JESUS PINTO",
+      "vendas": 3,
+      "receita": 686.74,
+      "ticket": 228.91,
+      "gestao": "Não identificado",
+      "supervisorDireto": "ACTIONLINE"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "MIGUEL DIAS BARROSO",
+      "vendas": 3,
+      "receita": 798.21,
+      "ticket": 266.07,
+      "gestao": "Não identificado",
+      "supervisorDireto": "ACTIONLINE"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "JULIANA FREITAS KIHARA",
+      "vendas": 2,
+      "receita": 306.73,
+      "ticket": 153.37,
+      "gestao": "Fabio",
+      "supervisorDireto": "MICHELE FERREIRA"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "FERNANDA ISABELA DE MELO FRANCISCO",
+      "vendas": 2,
+      "receita": 343.74,
+      "ticket": 171.87,
+      "gestao": "Josy",
+      "supervisorDireto": "REBECA MOURA"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "LUCAS VINICIUS FALCOCHIO DE JESUS",
+      "vendas": 2,
+      "receita": 463.73,
+      "ticket": 231.87,
+      "gestao": "Não identificado",
+      "supervisorDireto": "ACTIONLINE"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "CRISTINA LOPES OLIVEIRA DA SILVA",
+      "vendas": 2,
+      "receita": 794.66,
+      "ticket": 397.33,
+      "gestao": "Josy",
+      "supervisorDireto": "BENVE"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "PAULA EUNICE LOURENÇO ABREU",
+      "vendas": 2,
+      "receita": 582.82,
+      "ticket": 291.41,
+      "gestao": "Fabio",
+      "supervisorDireto": "FERNANDA VIZZONI"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "HIGOR DE CASTRO CRISPIM",
+      "vendas": 2,
+      "receita": 526.17,
+      "ticket": 263.08,
+      "gestao": "Josy",
+      "supervisorDireto": "HUMBERTO BANQUERI"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "LUCIANO VICENTE DA SILVEIRA",
+      "vendas": 2,
+      "receita": 1625.61,
+      "ticket": 812.8,
+      "gestao": "Josy",
+      "supervisorDireto": "BENVE"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "LUIZ ROBERTO AUGUSTO JUNIOR",
+      "vendas": 2,
+      "receita": 1011.88,
+      "ticket": 505.94,
+      "gestao": "Fabio",
+      "supervisorDireto": "REBECA ALVINO"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "BEATRIZ RAFAELA PLENS SILVESTRE",
+      "vendas": 2,
+      "receita": 465.09,
+      "ticket": 232.54,
+      "gestao": "Josy",
+      "supervisorDireto": "LUIZ ROBERTO"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "DAYARA CRISTIANA VIEIRA CRISPIM",
+      "vendas": 2,
+      "receita": 773.14,
+      "ticket": 386.57,
+      "gestao": "Fabio",
+      "supervisorDireto": "GONCALO MARTINS"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "SABRINA MARQUES LIMA",
+      "vendas": 2,
+      "receita": 643.77,
+      "ticket": 321.88,
+      "gestao": "Fabio",
+      "supervisorDireto": "GONCALO MARTINS"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "ERIKA DE SOUZA SUZART",
+      "vendas": 2,
+      "receita": 650.7,
+      "ticket": 325.35,
+      "gestao": "Não identificado",
+      "supervisorDireto": "ACTIONLINE"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "THIAGO CESAR XAVIER ABELO",
+      "vendas": 2,
+      "receita": 535.79,
+      "ticket": 267.89,
+      "gestao": "Josy",
+      "supervisorDireto": "REBECA MOURA"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "THAYNARA RAISSA OLIVEIRA SILVA",
+      "vendas": 2,
+      "receita": 600.69,
+      "ticket": 300.35,
+      "gestao": "Não identificado",
+      "supervisorDireto": "ACTIONLINE"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "FLÁVIA REGINA ROMBACH",
+      "vendas": 2,
+      "receita": 356.46,
+      "ticket": 178.23,
+      "gestao": "Fabio",
+      "supervisorDireto": "CAROLINE GUERKE"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "FRANCISCO MARDEN DE ABREU MELO BARBOSA",
+      "vendas": 1,
+      "receita": 163.26,
+      "ticket": 163.26,
+      "gestao": "Fabio",
+      "supervisorDireto": "NEFTALY LEONEL"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "DANIELA RIBEIRO DOS SANTOS",
+      "vendas": 1,
+      "receita": 260.55,
+      "ticket": 260.55,
+      "gestao": "Fabio",
+      "supervisorDireto": "PRISCILLA REGIS"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "LEONARDO RODRIGUES BARBOZA MURAROLLI",
+      "vendas": 1,
+      "receita": 343.03,
+      "ticket": 343.03,
+      "gestao": "Fabio",
+      "supervisorDireto": "REBECA ALVINO"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "MIKAEL DA COSTA SILVA",
+      "vendas": 1,
+      "receita": 388.27,
+      "ticket": 388.27,
+      "gestao": "Fabio",
+      "supervisorDireto": "ERIKA PAULA"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "RENAN FERNANDO ALVES DE LIMA",
+      "vendas": 1,
+      "receita": 288.01,
+      "ticket": 288.01,
+      "gestao": "Fabio",
+      "supervisorDireto": "REBECA ALVINO"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "BRUNO EDUARDO IGNACIO",
+      "vendas": 1,
+      "receita": 281.23,
+      "ticket": 281.23,
+      "gestao": "Josy",
+      "supervisorDireto": "JOSY BOMFIM"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "TAIS LOPES DA SILVA",
+      "vendas": 1,
+      "receita": 260.71,
+      "ticket": 260.71,
+      "gestao": "Josy",
+      "supervisorDireto": "BENVE"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "IVAN FELIX JUNIOR",
+      "vendas": 1,
+      "receita": 248.68,
+      "ticket": 248.68,
+      "gestao": "Administrativo",
+      "supervisorDireto": "ADMINISTRATIVO"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "EFRAIM MARQUES DA SILVA",
+      "vendas": 1,
+      "receita": 185.03,
+      "ticket": 185.03,
+      "gestao": "Não identificado",
+      "supervisorDireto": "ACTIONLINE"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "ISIS LUCIA RAVAGNANI NONATO ALMEIDA",
+      "vendas": 1,
+      "receita": 235.5,
+      "ticket": 235.5,
+      "gestao": "Fabio",
+      "supervisorDireto": "PRISCILLA REGIS"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "HAPVIDA ASSISTENCIA MEDICA LTDA MACEIO",
+      "vendas": 1,
+      "receita": 330.2,
+      "ticket": 330.2,
+      "gestao": "Não identificado",
+      "supervisorDireto": "Não identificado"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "THIAGO DA SILVA MIRANDA",
+      "vendas": 1,
+      "receita": 182.25,
+      "ticket": 182.25,
+      "gestao": "Fabio",
+      "supervisorDireto": "ERIKA PAULA"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "EBOLY NEVES FERREIRA",
+      "vendas": 1,
+      "receita": 243.24,
+      "ticket": 243.24,
+      "gestao": "Fabio",
+      "supervisorDireto": "GONCALO MARTINS"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "THAIS FERNANDA DE FARIAS",
+      "vendas": 1,
+      "receita": 238.41,
+      "ticket": 238.41,
+      "gestao": "Não identificado",
+      "supervisorDireto": "ACTIONLINE"
+    },
+    {
+      "NM_VENDEDOR_PLANO": "BRUNA LAVESSO DOS SANTOS",
+      "vendas": 1,
+      "receita": 1024.45,
+      "ticket": 1024.45,
+      "gestao": "Josy",
+      "supervisorDireto": "HUMBERTO BANQUERI"
     }
   ],
   "agentesGup": [
