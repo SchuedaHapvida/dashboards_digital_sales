@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #F0F4F8;
+  font-family: 'Inter', system-ui, sans-serif;
+  color: #1E293B;
+}
+
+@layer utilities {
+  .hapvida-gradient {
+    background: linear-gradient(135deg, #003087 0%, #001F5B 100%);
+  }
+}

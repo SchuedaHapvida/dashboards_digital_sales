@@ -1,0 +1,602 @@
+{
+  "kpi": {
+    "totalLeads": 48868,
+    "totalVendas": 12726,
+    "receitaTotal": 4203193.21,
+    "ticketMedio": 330.28
+  },
+  "kpiMes": [
+    {
+      "mes": "Maio/2026",
+      "leads": 43229,
+      "vendas": 10503,
+      "receita": 3480250.56,
+      "ticketMedio": 331.36
+    },
+    {
+      "mes": "Jun/2026 (1–9)",
+      "leads": 5639,
+      "vendas": 2223,
+      "receita": 722942.66,
+      "ticketMedio": 325.21
+    }
+  ],
+  "serieTemporal": [
+    {
+      "data": "2026-05-01",
+      "leads": 173,
+      "vendas": 533
+    },
+    {
+      "data": "2026-05-02",
+      "leads": 326,
+      "vendas": 80
+    },
+    {
+      "data": "2026-05-03",
+      "leads": 109,
+      "vendas": 74
+    },
+    {
+      "data": "2026-05-04",
+      "leads": 3380,
+      "vendas": 397
+    },
+    {
+      "data": "2026-05-05",
+      "leads": 1300,
+      "vendas": 453
+    },
+    {
+      "data": "2026-05-06",
+      "leads": 858,
+      "vendas": 425
+    },
+    {
+      "data": "2026-05-07",
+      "leads": 2517,
+      "vendas": 457
+    },
+    {
+      "data": "2026-05-08",
+      "leads": 657,
+      "vendas": 352
+    },
+    {
+      "data": "2026-05-09",
+      "leads": 277,
+      "vendas": 143
+    },
+    {
+      "data": "2026-05-10",
+      "leads": 98,
+      "vendas": 168
+    },
+    {
+      "data": "2026-05-11",
+      "leads": 4523,
+      "vendas": 452
+    },
+    {
+      "data": "2026-05-12",
+      "leads": 2813,
+      "vendas": 443
+    },
+    {
+      "data": "2026-05-13",
+      "leads": 2239,
+      "vendas": 456
+    },
+    {
+      "data": "2026-05-14",
+      "leads": 534,
+      "vendas": 366
+    },
+    {
+      "data": "2026-05-15",
+      "leads": 733,
+      "vendas": 383
+    },
+    {
+      "data": "2026-05-16",
+      "leads": 196,
+      "vendas": 118
+    },
+    {
+      "data": "2026-05-17",
+      "leads": 111,
+      "vendas": 95
+    },
+    {
+      "data": "2026-05-18",
+      "leads": 1270,
+      "vendas": 451
+    },
+    {
+      "data": "2026-05-19",
+      "leads": 1584,
+      "vendas": 488
+    },
+    {
+      "data": "2026-05-20",
+      "leads": 3203,
+      "vendas": 459
+    },
+    {
+      "data": "2026-05-21",
+      "leads": 3602,
+      "vendas": 405
+    },
+    {
+      "data": "2026-05-22",
+      "leads": 1098,
+      "vendas": 345
+    },
+    {
+      "data": "2026-05-23",
+      "leads": 215,
+      "vendas": 191
+    },
+    {
+      "data": "2026-05-24",
+      "leads": 108,
+      "vendas": 113
+    },
+    {
+      "data": "2026-05-25",
+      "leads": 3889,
+      "vendas": 440
+    },
+    {
+      "data": "2026-05-26",
+      "leads": 2609,
+      "vendas": 409
+    },
+    {
+      "data": "2026-05-27",
+      "leads": 574,
+      "vendas": 427
+    },
+    {
+      "data": "2026-05-28",
+      "leads": 1005,
+      "vendas": 388
+    },
+    {
+      "data": "2026-05-29",
+      "leads": 1956,
+      "vendas": 469
+    },
+    {
+      "data": "2026-05-30",
+      "leads": 1139,
+      "vendas": 280
+    },
+    {
+      "data": "2026-05-31",
+      "leads": 133,
+      "vendas": 243
+    },
+    {
+      "data": "2026-06-01",
+      "leads": 1510,
+      "vendas": 369
+    },
+    {
+      "data": "2026-06-02",
+      "leads": 556,
+      "vendas": 413
+    },
+    {
+      "data": "2026-06-03",
+      "leads": 761,
+      "vendas": 421
+    },
+    {
+      "data": "2026-06-04",
+      "leads": 226,
+      "vendas": 96
+    },
+    {
+      "data": "2026-06-05",
+      "leads": 343,
+      "vendas": 319
+    },
+    {
+      "data": "2026-06-06",
+      "leads": 165,
+      "vendas": 83
+    },
+    {
+      "data": "2026-06-07",
+      "leads": 123,
+      "vendas": 77
+    },
+    {
+      "data": "2026-06-08",
+      "leads": 1461,
+      "vendas": 385
+    },
+    {
+      "data": "2026-06-09",
+      "leads": 494,
+      "vendas": 60
+    }
+  ],
+  "canal": [
+    {
+      "canal_label": "Individual",
+      "vendas": 7965,
+      "receita": 2939226.07,
+      "ticket": 369.02
+    },
+    {
+      "canal_label": "PIM",
+      "vendas": 3998,
+      "receita": 1037156.91,
+      "ticket": 259.42
+    },
+    {
+      "canal_label": "Administradora",
+      "vendas": 466,
+      "receita": 149185.91,
+      "ticket": 320.14
+    },
+    {
+      "canal_label": "Middle I",
+      "vendas": 284,
+      "receita": 75459.18,
+      "ticket": 265.7
+    },
+    {
+      "canal_label": "Middle II",
+      "vendas": 13,
+      "receita": 2165.14,
+      "ticket": 166.55
+    }
+  ],
+  "uf": [
+    {
+      "UF": "SP",
+      "vendas": 5056,
+      "receita": 1606493.11
+    },
+    {
+      "UF": "MG",
+      "vendas": 1064,
+      "receita": 282382.65
+    },
+    {
+      "UF": "CE",
+      "vendas": 877,
+      "receita": 400625.84
+    },
+    {
+      "UF": "BA",
+      "vendas": 772,
+      "receita": 311673.41
+    },
+    {
+      "UF": "GO",
+      "vendas": 768,
+      "receita": 256003.86
+    },
+    {
+      "UF": "RJ",
+      "vendas": 581,
+      "receita": 179955.34
+    },
+    {
+      "UF": "PE",
+      "vendas": 552,
+      "receita": 183764.98
+    },
+    {
+      "UF": "PR",
+      "vendas": 444,
+      "receita": 118100.13
+    },
+    {
+      "UF": "PA",
+      "vendas": 364,
+      "receita": 173805.36
+    },
+    {
+      "UF": "RS",
+      "vendas": 297,
+      "receita": 78970.53
+    },
+    {
+      "UF": "DF",
+      "vendas": 282,
+      "receita": 84587.82
+    },
+    {
+      "UF": "RN",
+      "vendas": 243,
+      "receita": 70121.31
+    }
+  ],
+  "vendedores": [
+    {
+      "NM_VENDEDOR_PLANO": "MATHEUS ALEIXO SOARES",
+      "vendas": 407,
+      "receita": 329639.89,
+      "ticket": 809.93
+    },
+    {
+      "NM_VENDEDOR_PLANO": "MAYARA JADE BANDEIRA BATISTA LIMA",
+      "vendas": 371,
+      "receita": 117010.35,
+      "ticket": 315.39
+    },
+    {
+      "NM_VENDEDOR_PLANO": "PEDRO PAULO FRANCA VILLA",
+      "vendas": 279,
+      "receita": 88372.81,
+      "ticket": 316.75
+    },
+    {
+      "NM_VENDEDOR_PLANO": "ANDRESSA LEME BARBOZA",
+      "vendas": 202,
+      "receita": 50004.76,
+      "ticket": 247.55
+    },
+    {
+      "NM_VENDEDOR_PLANO": "GIOVANNA FERREIRA DE FARIAS",
+      "vendas": 190,
+      "receita": 54886.55,
+      "ticket": 288.88
+    },
+    {
+      "NM_VENDEDOR_PLANO": "ANA THALYTA SAMPAIO PINHEIRO",
+      "vendas": 187,
+      "receita": 68867.12,
+      "ticket": 368.27
+    },
+    {
+      "NM_VENDEDOR_PLANO": "CAMILA DE SOUSA GOMES",
+      "vendas": 179,
+      "receita": 52218.99,
+      "ticket": 291.73
+    },
+    {
+      "NM_VENDEDOR_PLANO": "BRUNA DA SILVA CAMPASSI",
+      "vendas": 173,
+      "receita": 51346.31,
+      "ticket": 296.8
+    },
+    {
+      "NM_VENDEDOR_PLANO": "JAQUELINE APARECIDA CORREIA SILVA",
+      "vendas": 160,
+      "receita": 49157.57,
+      "ticket": 307.23
+    },
+    {
+      "NM_VENDEDOR_PLANO": "MARIANA FELIX MONTEIRO DOS SANTOS",
+      "vendas": 149,
+      "receita": 44393.34,
+      "ticket": 297.94
+    },
+    {
+      "NM_VENDEDOR_PLANO": "ANDREZZA APARECIDA MACHINI",
+      "vendas": 146,
+      "receita": 46812.31,
+      "ticket": 320.63
+    },
+    {
+      "NM_VENDEDOR_PLANO": "FELIPE AUGUSTO DA SILVA SOARES",
+      "vendas": 144,
+      "receita": 40210.22,
+      "ticket": 279.24
+    },
+    {
+      "NM_VENDEDOR_PLANO": "ANA CAROLINA RIBEIRO ANTUNES",
+      "vendas": 139,
+      "receita": 47241.13,
+      "ticket": 339.86
+    },
+    {
+      "NM_VENDEDOR_PLANO": "ISABELLA CARDOSO DE MATTOS",
+      "vendas": 137,
+      "receita": 41244.61,
+      "ticket": 301.06
+    },
+    {
+      "NM_VENDEDOR_PLANO": "WENDEL PEREIRA DE ANDRADE",
+      "vendas": 137,
+      "receita": 38062.43,
+      "ticket": 277.83
+    }
+  ],
+  "agentesGup": [
+    {
+      "nome": "Glayane Silva",
+      "chats": 2355,
+      "vendas": 222,
+      "conversao": 9.4
+    },
+    {
+      "nome": "Victoria Regia",
+      "chats": 1668,
+      "vendas": 191,
+      "conversao": 11.5
+    },
+    {
+      "nome": "Cláudia Galvão",
+      "chats": 2193,
+      "vendas": 170,
+      "conversao": 7.8
+    },
+    {
+      "nome": "Emanuele Souza",
+      "chats": 1468,
+      "vendas": 139,
+      "conversao": 9.5
+    },
+    {
+      "nome": "Lara de Lima",
+      "chats": 1340,
+      "vendas": 81,
+      "conversao": 6.0
+    },
+    {
+      "nome": "Marilene Santos",
+      "chats": 1339,
+      "vendas": 85,
+      "conversao": 6.3
+    },
+    {
+      "nome": "Josiene Dourado",
+      "chats": 932,
+      "vendas": 62,
+      "conversao": 6.7
+    },
+    {
+      "nome": "Vania Gabriela",
+      "chats": 1008,
+      "vendas": 59,
+      "conversao": 5.9
+    },
+    {
+      "nome": "Yan Vasconcelos",
+      "chats": 1292,
+      "vendas": 48,
+      "conversao": 3.7
+    },
+    {
+      "nome": "Emerson Soares",
+      "chats": 1480,
+      "vendas": 42,
+      "conversao": 2.8
+    },
+    {
+      "nome": "Lumma Roberta",
+      "chats": 1152,
+      "vendas": 38,
+      "conversao": 3.3
+    },
+    {
+      "nome": "Vanessa Ribeiro",
+      "chats": 975,
+      "vendas": 35,
+      "conversao": 3.6
+    },
+    {
+      "nome": "Mikaele Rodrigues",
+      "chats": 1126,
+      "vendas": 29,
+      "conversao": 2.6
+    },
+    {
+      "nome": "Amanda Vitoria",
+      "chats": 959,
+      "vendas": 23,
+      "conversao": 2.4
+    },
+    {
+      "nome": "Louise Mendonça",
+      "chats": 1034,
+      "vendas": 16,
+      "conversao": 1.5
+    }
+  ],
+  "volumeHorario": [
+    {
+      "label": "00h",
+      "leads": 114
+    },
+    {
+      "label": "01h",
+      "leads": 58
+    },
+    {
+      "label": "02h",
+      "leads": 40
+    },
+    {
+      "label": "03h",
+      "leads": 23
+    },
+    {
+      "label": "04h",
+      "leads": 31
+    },
+    {
+      "label": "05h",
+      "leads": 58
+    },
+    {
+      "label": "06h",
+      "leads": 175
+    },
+    {
+      "label": "07h",
+      "leads": 716
+    },
+    {
+      "label": "08h",
+      "leads": 1142
+    },
+    {
+      "label": "09h",
+      "leads": 1649
+    },
+    {
+      "label": "10h",
+      "leads": 11868
+    },
+    {
+      "label": "11h",
+      "leads": 8543
+    },
+    {
+      "label": "12h",
+      "leads": 4444
+    },
+    {
+      "label": "13h",
+      "leads": 6509
+    },
+    {
+      "label": "14h",
+      "leads": 3275
+    },
+    {
+      "label": "15h",
+      "leads": 3882
+    },
+    {
+      "label": "16h",
+      "leads": 1982
+    },
+    {
+      "label": "17h",
+      "leads": 1320
+    },
+    {
+      "label": "18h",
+      "leads": 978
+    },
+    {
+      "label": "19h",
+      "leads": 613
+    },
+    {
+      "label": "20h",
+      "leads": 503
+    },
+    {
+      "label": "21h",
+      "leads": 406
+    },
+    {
+      "label": "22h",
+      "leads": 325
+    },
+    {
+      "label": "23h",
+      "leads": 214
+    }
+  ]
+}
