@@ -31,7 +31,9 @@ function GestaoTag({ gestao }: { gestao: string }) {
   const cls =
     gestao === "Fabio"
       ? "bg-[#003087]/10 text-[#003087]"
-      : "bg-[#F47920]/10 text-[#F47920]";
+      : gestao === "Josy"
+      ? "bg-[#F47920]/10 text-[#F47920]"
+      : "bg-slate-200/60 text-slate-600";
   return (
     <span className={`text-xs font-semibold px-2 py-0.5 rounded-full whitespace-nowrap ${cls}`}>
       {gestao}

@@ -1,7 +1,8 @@
 {
   "gestores": [
     "Fabio",
-    "Josy"
+    "Josy",
+    "Administrativo"
   ],
   "supervisoresPorGestao": {
     "Fabio": [
@@ -21,6 +22,9 @@
       "Josy Bomfim",
       "Luiz Roberto",
       "Rebeca Moura"
+    ],
+    "Administrativo": [
+      "Administrativo"
     ]
   },
   "contagemPorSupervisor": {
@@ -41,6 +45,9 @@
       "Luiz Roberto": 37,
       "Benve": 19,
       "Rebeca Moura": 28
+    },
+    "Administrativo": {
+      "Administrativo": 3
     }
   }
 }

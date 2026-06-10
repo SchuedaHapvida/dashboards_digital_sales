@@ -269,6 +269,7 @@ export default function DashboardClient() {
                     { value: "todos", label: "Todas as Gestões" },
                     { value: "Fabio", label: "Fabio" },
                     { value: "Josy", label: "Josy" },
+                    { value: "Administrativo", label: "Administrativo" },
                   ],
                 },
                 {
@@ -300,6 +301,7 @@ export default function DashboardClient() {
                     { value: "todos", label: "Todas as Gestões" },
                     { value: "Fabio", label: "Fabio" },
                     { value: "Josy", label: "Josy" },
+                    { value: "Administrativo", label: "Administrativo" },
                   ],
                 },
                 {

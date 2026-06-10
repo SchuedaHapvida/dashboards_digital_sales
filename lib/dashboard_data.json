@@ -335,8 +335,8 @@
       "vendas": 407,
       "receita": 329639.89,
       "ticket": 809.93,
-      "gestao": "Não identificado",
-      "supervisorDireto": "Não identificado"
+      "gestao": "Administrativo",
+      "supervisorDireto": "Administrativo"
     },
     {
       "NM_VENDEDOR_PLANO": "MAYARA JADE BANDEIRA BATISTA LIMA",
@@ -351,8 +351,8 @@
       "vendas": 279,
       "receita": 88372.81,
       "ticket": 316.75,
-      "gestao": "Não identificado",
-      "supervisorDireto": "Não identificado"
+      "gestao": "Administrativo",
+      "supervisorDireto": "Administrativo"
     },
     {
       "NM_VENDEDOR_PLANO": "ANDRESSA LEME BARBOZA",
@@ -375,8 +375,8 @@
       "vendas": 187,
       "receita": 68867.12,
       "ticket": 368.27,
-      "gestao": "Não identificado",
-      "supervisorDireto": "Não identificado"
+      "gestao": "Administrativo",
+      "supervisorDireto": "Administrativo"
     },
     {
       "NM_VENDEDOR_PLANO": "CAMILA DE SOUSA GOMES",
@@ -488,7 +488,7 @@
       "nome": "Lara de Lima",
       "chats": 1340,
       "vendas": 81,
-      "conversao": 6.0,
+      "conversao": 6,
       "gestao": "Não identificado",
       "supervisorDireto": "Não identificado"
     },
