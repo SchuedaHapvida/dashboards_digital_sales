@@ -260,6 +260,24 @@ export default function DashboardClient() {
                     { value: "Middle I", label: "Middle I" },
                   ],
                 },
+                {
+                  id: "gestao",
+                  label: "Gestão",
+                  value: gestaoFiltro,
+                  onChange: handleGestaoChange,
+                  options: [
+                    { value: "todos", label: "Todas as Gestões" },
+                    { value: "Fabio", label: "Fabio" },
+                    { value: "Josy", label: "Josy" },
+                  ],
+                },
+                {
+                  id: "supervisor",
+                  label: "Supervisor",
+                  value: supervisorFiltro,
+                  onChange: setSupervisorFiltro,
+                  options: supervisorOptions,
+                },
               ]}
             />
             <UFTable data={uf as any} />
