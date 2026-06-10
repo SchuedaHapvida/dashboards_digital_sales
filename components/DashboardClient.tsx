@@ -353,7 +353,7 @@ export default function DashboardClient() {
             </div>
 
             {/* Tables */}
-            <div className="grid grid-cols-1 xl:grid-cols-2 gap-4">
+            <div className="space-y-4">
               <VendedoresTable
                 data={vendedores as any}
                 gestaoFilter={gestaoFiltro}

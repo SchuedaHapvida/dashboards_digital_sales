@@ -11,14 +11,21 @@ interface Agente {
 
 const MEDAL = ["🥇", "🥈", "🥉"];
 
+function fmtN(n: number) {
+  return n.toLocaleString("pt-BR");
+}
+
 export default function AgentesTable({ data }: { data: Agente[] }) {
-  const maxChats = data[0]?.chats ?? 1;
   const sorted = [...data].sort((a, b) => b.vendas - a.vendas);
+  const totalChats = sorted.reduce((s, a) => s + a.chats, 0);
+  const totalVendas = sorted.reduce((s, a) => s + a.vendas, 0);
+  const avgConv = totalChats > 0 ? (totalVendas / totalChats) * 100 : 0;
+
   return (
     <div className="bg-white rounded-xl shadow-sm overflow-hidden">
       <div className="px-5 py-4 border-b border-slate-100 flex items-center justify-between flex-wrap gap-2">
         <h2 className="text-xs font-semibold text-slate-500 uppercase tracking-wider">
-          Ranking de Agentes — WhatsApp (Gupshup)
+          Detalhamento por Agente — WhatsApp (Gupshup)
         </h2>
         <span className="flex items-center gap-1.5 text-xs text-amber-700 bg-amber-50 border border-amber-200 px-2.5 py-1 rounded-full font-medium">
           <svg xmlns="http://www.w3.org/2000/svg" width="11" height="11" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
@@ -30,18 +37,16 @@ export default function AgentesTable({ data }: { data: Agente[] }) {
       <div className="overflow-x-auto">
         <table className="w-full text-sm">
           <thead>
-            <tr className="bg-slate-50 text-xs text-slate-500 uppercase tracking-wider">
-              <th className="px-4 py-2.5 text-left w-6">#</th>
-              <th className="px-4 py-2.5 text-left">Agente</th>
-              <th className="px-4 py-2.5 text-center">Volume</th>
-              <th className="px-4 py-2.5 text-right">Chats</th>
-              <th className="px-4 py-2.5 text-right">Vendas</th>
-              <th className="px-4 py-2.5 text-right">Conv.%</th>
+            <tr className="bg-slate-50 text-xs text-slate-500 uppercase tracking-wider border-b border-slate-100">
+              <th className="px-4 py-3 text-left w-6">#</th>
+              <th className="px-4 py-3 text-left">Agente</th>
+              <th className="px-4 py-3 text-right">Chats</th>
+              <th className="px-4 py-3 text-right">Vendas</th>
+              <th className="px-4 py-3 text-right">Conv.%</th>
             </tr>
           </thead>
           <tbody className="divide-y divide-slate-50">
             {sorted.map((a, i) => {
-              const pct = (a.chats / maxChats) * 100;
               const convColor =
                 a.conversao >= 10
                   ? "text-emerald-600 font-bold"
@@ -50,38 +55,44 @@ export default function AgentesTable({ data }: { data: Agente[] }) {
                   : "text-slate-400";
               return (
                 <tr key={a.nome} className="hover:bg-slate-50 transition-colors">
-                  <td className="px-4 py-2.5 font-bold text-slate-400 text-xs">
+                  <td className="px-4 py-3 text-xs text-slate-400 font-medium">
                     {i < 3 ? MEDAL[i] : i + 1}
                   </td>
-                  <td className="px-4 py-2.5">
-                    <div>
-                      <p className="font-medium text-slate-700 text-xs leading-tight">
-                        {a.nome}
-                      </p>
-                      <div className="w-full bg-slate-100 rounded-full h-1 mt-1.5">
-                        <div
-                          className="h-1 rounded-full bg-[#F47920]"
-                          style={{ width: `${pct}%` }}
-                        />
-                      </div>
+                  <td className="px-4 py-3">
+                    <span className="font-bold text-slate-700 text-sm">{a.nome}</span>
+                  </td>
+                  <td className="px-4 py-3 text-right">
+                    <div className="flex flex-col items-end gap-0.5">
+                      <span className="font-semibold text-slate-900 text-xs">{fmtN(a.chats)}</span>
+                      <span className="text-[10px] text-slate-400 font-medium">
+                        {totalChats > 0 ? ((a.chats / totalChats) * 100).toFixed(1) : "0"}% do total
+                      </span>
                     </div>
                   </td>
-                  <td className="px-4 py-2.5 text-center text-xs text-slate-400">
-                    {pct.toFixed(0)}%
+                  <td className="px-4 py-3 text-right">
+                    <div className="flex flex-col items-end gap-0.5">
+                      <span className="font-semibold text-[#003087]">{fmtN(a.vendas)}</span>
+                      <span className="text-[10px] text-slate-400 font-medium">
+                        {totalVendas > 0 ? ((a.vendas / totalVendas) * 100).toFixed(1) : "0"}% do total
+                      </span>
+                    </div>
                   </td>
-                  <td className="px-4 py-2.5 text-right text-slate-600">
-                    {a.chats.toLocaleString("pt-BR")}
-                  </td>
-                  <td className="px-4 py-2.5 text-right font-semibold text-[#003087]">
-                    {a.vendas}
-                  </td>
-                  <td className={`px-4 py-2.5 text-right ${convColor}`}>
+                  <td className={`px-4 py-3 text-right text-xs ${convColor}`}>
                     {a.conversao.toFixed(1)}%
                   </td>
                 </tr>
               );
             })}
           </tbody>
+          <tfoot>
+            <tr className="bg-slate-50 border-t-2 border-slate-200 text-xs font-bold text-slate-600">
+              <td className="px-4 py-3 text-slate-400">&Sigma;</td>
+              <td className="px-4 py-3">Total</td>
+              <td className="px-4 py-3 text-right text-slate-500">{fmtN(totalChats)}</td>
+              <td className="px-4 py-3 text-right text-[#003087]">{fmtN(totalVendas)}</td>
+              <td className="px-4 py-3 text-right text-slate-500">{avgConv.toFixed(1)}%</td>
+            </tr>
+          </tfoot>
         </table>
       </div>
     </div>
