@@ -234,6 +234,34 @@ export default function DashboardClient() {
         ══════════════════════════════════════════════════════════ */}
         {activeTab === "uf" && (
           <div className="space-y-5">
+            <FilterBar
+              filters={[
+                {
+                  id: "periodo",
+                  label: "Período",
+                  value: periodo,
+                  onChange: (v) => setPeriodo(v as "total" | "maio" | "junho"),
+                  options: [
+                    { value: "total", label: "Total (Mai – Jun)" },
+                    { value: "maio", label: "Maio 2026" },
+                    { value: "junho", label: "Junho 2026" },
+                  ],
+                },
+                {
+                  id: "canal",
+                  label: "Canal",
+                  value: canalFiltro,
+                  onChange: setCanalFiltro,
+                  options: [
+                    { value: "todos", label: "Todos os Canais" },
+                    { value: "Individual", label: "Individual" },
+                    { value: "PIM", label: "PIM" },
+                    { value: "Administradora", label: "Administradora" },
+                    { value: "Middle I", label: "Middle I" },
+                  ],
+                },
+              ]}
+            />
             <UFTable data={uf as any} />
           </div>
         )}

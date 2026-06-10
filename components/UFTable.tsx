@@ -32,80 +32,6 @@ export default function UFTable({ data }: { data: UF[] }) {
   const maxVendas = data[0]?.vendas ?? 1;
 
   return (
-    <div className="space-y-5">
-      {/* ── summary KPI strip */}
-      <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
-        <SummaryCard
-          label="Total Leads"
-          value={hasLeads ? fmtN(totalLeads!) : "—"}
-          sub={hasLeads ? "Soma dos estados" : "Dados não disponíveis"}
-          color="text-[#003087]"
-          border="border-[#003087]"
-        />
-        <SummaryCard
-          label="Vendas Totais"
-          value={fmtN(totalVendas)}
-          sub={`${data.length} estados`}
-          color="text-[#F47920]"
-          border="border-[#F47920]"
-        />
-        <SummaryCard
-          label="Receita Total"
-          value={fmtR(totalReceita)}
-          sub="Mensalidades contratadas"
-          color="text-emerald-600"
-          border="border-emerald-500"
-        />
-        <SummaryCard
-          label="Ticket Médio"
-          value={`R$ ${(totalReceita / totalVendas).toFixed(2).replace(".", ",")}`}
-          sub="Média geral dos estados"
-          color="text-violet-600"
-          border="border-violet-500"
-        />
-      </div>
-
-      {/* ── mkt share visual */}
-      <div className="bg-white rounded-xl shadow-sm p-5">
-        <div className="flex items-center justify-between mb-3">
-          <h2 className="text-xs font-semibold text-slate-500 uppercase tracking-wider">
-            MKT Share por Estado — Distribuição de Vendas
-          </h2>
-          <span className="text-xs text-slate-400">{totalVendas.toLocaleString("pt-BR")} vendas totais</span>
-        </div>
-        {/* stacked bar */}
-        <div className="flex rounded-full overflow-hidden h-5 w-full">
-          {data.map((d, i) => {
-            const pct = (d.vendas / totalVendas) * 100;
-            return (
-              <div
-                key={d.UF}
-                style={{ width: `${pct}%`, backgroundColor: STATE_COLORS[i % STATE_COLORS.length] }}
-                className="relative group cursor-default"
-                title={`${d.UF}: ${pct.toFixed(1)}%`}
-              />
-            );
-          })}
-        </div>
-        {/* legend */}
-        <div className="flex flex-wrap gap-x-4 gap-y-1.5 mt-3">
-          {data.map((d, i) => {
-            const pct = (d.vendas / totalVendas) * 100;
-            return (
-              <div key={d.UF} className="flex items-center gap-1.5">
-                <div
-                  className="w-2.5 h-2.5 rounded-sm flex-shrink-0"
-                  style={{ backgroundColor: STATE_COLORS[i % STATE_COLORS.length] }}
-                />
-                <span className="text-xs text-slate-600 font-medium">{d.UF}</span>
-                <span className="text-xs text-slate-400">{pct.toFixed(1)}%</span>
-              </div>
-            );
-          })}
-        </div>
-      </div>
-
-      {/* ── detailed table */}
       <div className="bg-white rounded-xl shadow-sm overflow-hidden">
         <div className="px-5 py-4 border-b border-slate-100 flex items-center justify-between flex-wrap gap-2">
           <h2 className="text-xs font-semibold text-slate-500 uppercase tracking-wider">
@@ -222,28 +148,5 @@ export default function UFTable({ data }: { data: UF[] }) {
           </table>
         </div>
       </div>
-    </div>
-  );
-}
-
-function SummaryCard({
-  label,
-  value,
-  sub,
-  color,
-  border,
-}: {
-  label: string;
-  value: string;
-  sub: string;
-  color: string;
-  border: string;
-}) {
-  return (
-    <div className={`bg-white rounded-xl shadow-sm border-t-4 ${border} p-4 flex flex-col gap-2`}>
-      <span className="text-xs font-semibold text-slate-500 uppercase tracking-wider">{label}</span>
-      <p className={`text-2xl font-bold leading-none ${color}`}>{value}</p>
-      <p className="text-xs text-slate-400">{sub}</p>
-    </div>
   );
 }
