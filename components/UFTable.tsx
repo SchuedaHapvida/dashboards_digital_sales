@@ -77,7 +77,7 @@ export default function UFTable({ data }: { data: UF[] }) {
                         <div className="flex flex-col items-end gap-0.5">
                           <span className="font-semibold text-slate-900 text-xs">{fmtN(d.leads)}</span>
                           <span className="text-[10px] text-slate-400 font-medium">
-                            {totalLeads ? ((d.leads / totalLeads) * 100).toFixed(1) + "%" : "—"}
+                            {totalLeads ? ((d.leads / totalLeads) * 100).toFixed(1) + "% do total" : "—"}
                           </span>
                         </div>
                       ) : (
