@@ -75,6 +75,7 @@ export default function DashboardClient() {
   // ── colaboradores filters
   const [gestaoFiltro, setGestaoFiltro] = useState("todos");
   const [supervisorFiltro, setSupervisorFiltro] = useState("todos");
+  const [nomeFiltro, setNomeFiltro] = useState("");
 
   function handleGestaoChange(g: string) {
     setGestaoFiltro(g);
@@ -262,50 +263,32 @@ export default function DashboardClient() {
         {activeTab === "colaboradores" && (
           <div className="space-y-5">
 
-            {/* Team summary KPIs */}
-            <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
-              <KPICard
-                title="Vendedores"
-                value={String(colabKPIs.count)}
-                subtitle={
-                  gestaoFiltro === "todos"
-                    ? "Top performers · Base Digital"
-                    : `Gestão ${gestaoFiltro}${supervisorFiltro !== "todos" ? ` · ${supervisorFiltro}` : ""}`
-                }
-                accent="blue"
-                icon={<IconTeam />}
+            {/* Search bar */}
+            <div className="bg-white rounded-xl shadow-sm px-4 py-3 flex items-center gap-3">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2} className="text-slate-400 shrink-0">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M21 21l-4.35-4.35M17 11A6 6 0 115 11a6 6 0 0112 0z" />
+              </svg>
+              <input
+                type="text"
+                value={nomeFiltro}
+                onChange={(e) => setNomeFiltro(e.target.value)}
+                placeholder="Buscar vendedor pelo nome..."
+                className="flex-1 text-sm text-slate-700 placeholder-slate-400 bg-transparent outline-none"
               />
-              <KPICard
-                title="Vendas (Top)"
-                value={colabKPIs.totalVendas.toLocaleString("pt-BR")}
-                subtitle="Total dos filtrados"
-                accent="orange"
-                icon={<IconCart />}
-              />
-              <KPICard
-                title="Receita (Top)"
-                value={fmtM(colabKPIs.receitaTotal)}
-                subtitle="Soma dos filtrados"
-                accent="green"
-                icon={<IconMoney />}
-              />
-              <KPICard
-                title="Ticket Médio"
-                value={
-                  colabKPIs.totalVendas > 0
-                    ? `R$ ${colabKPIs.ticketMedio.toFixed(2).replace(".", ",")}`
-                    : "—"
-                }
-                subtitle="Média dos filtrados"
-                accent="purple"
-                icon={<IconTicket />}
-              />
+              {nomeFiltro && (
+                <button onClick={() => setNomeFiltro("")} className="text-slate-300 hover:text-slate-500 transition-colors">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
+                  </svg>
+                </button>
+              )}
             </div>
 
             <VendedoresTable
               data={vendedores as any}
               gestaoFilter={gestaoFiltro}
               supervisorFilter={supervisorFiltro}
+              nomeFilter={nomeFiltro}
               showHierarchy
             />
           </div>

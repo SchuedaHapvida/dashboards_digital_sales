@@ -45,6 +45,7 @@ interface Props {
   data: Vendedor[];
   gestaoFilter?: string;
   supervisorFilter?: string;
+  nomeFilter?: string;
   showHierarchy?: boolean;
 }
 
@@ -52,11 +53,13 @@ export default function VendedoresTable({
   data,
   gestaoFilter = "todos",
   supervisorFilter = "todos",
+  nomeFilter = "",
   showHierarchy = false,
 }: Props) {
   const filtered = data.filter((v) => {
     if (gestaoFilter !== "todos" && v.gestao !== gestaoFilter) return false;
     if (supervisorFilter !== "todos" && v.supervisorDireto !== supervisorFilter) return false;
+    if (nomeFilter && !v.NM_VENDEDOR_PLANO.toLowerCase().includes(nomeFilter.toLowerCase())) return false;
     return true;
   });
 
