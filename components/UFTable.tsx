@@ -82,7 +82,7 @@ export default function UFTable({ data }: { data: UF[] }) {
                         <span className="font-bold text-slate-700 text-sm">{d.UF}</span>
                       </div>
                     </td>
-                    <td className="px-4 py-3 text-right text-slate-500 text-xs">
+                    <td className="px-4 py-3 text-right font-semibold text-slate-900 text-xs">
                       {d.leads != null ? fmtN(d.leads) : <span className="text-slate-300">—</span>}
                     </td>
                     <td className="px-4 py-3 text-right font-semibold text-[#003087]">
@@ -100,7 +100,7 @@ export default function UFTable({ data }: { data: UF[] }) {
                     <td className="px-4 py-3 text-right font-semibold text-emerald-600 text-xs">
                       {fmtR(d.receita)}
                     </td>
-                    <td className="px-4 py-3 text-right text-slate-500 text-xs">
+                    <td className="px-4 py-3 text-right font-semibold text-slate-900 text-xs">
                       R$ {ticket.toFixed(2).replace(".", ",")}
                     </td>
                     <td className="px-4 py-3 text-right">
