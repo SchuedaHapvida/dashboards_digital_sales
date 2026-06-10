@@ -5,7 +5,7 @@ import data from "@/lib/dashboard_data.json";
 import promotoresData from "@/lib/promotores.json";
 
 import Header from "./Header";
-import NavTabs, { TabId } from "./NavTabs";
+import { TabId } from "./NavTabs";
 import FilterBar from "./FilterBar";
 import KPICard from "./KPICard";
 import KPIMensal from "./KPIMensal";
@@ -140,46 +140,64 @@ export default function DashboardClient() {
 
   return (
     <div className="min-h-screen bg-[#F0F4F8]">
-      <Header />
+      <Header active={activeTab} onTabChange={setActiveTab} />
 
       <main className="max-w-screen-2xl mx-auto px-6 py-6 space-y-4">
 
-        {/* ── navigation tabs */}
-        <NavTabs active={activeTab} onChange={setActiveTab} />
+        {/* ── global filters (all tabs) */}
+        <FilterBar
+          filters={[
+            {
+              id: "periodo",
+              label: "Período",
+              value: periodo,
+              onChange: (v) => setPeriodo(v as "total" | "maio" | "junho"),
+              options: [
+                { value: "total", label: "Total (Mai – Jun)" },
+                { value: "maio", label: "Maio 2026" },
+                { value: "junho", label: "Junho 2026" },
+              ],
+            },
+            {
+              id: "canal",
+              label: "Canal",
+              value: canalFiltro,
+              onChange: setCanalFiltro,
+              options: [
+                { value: "todos", label: "Todos os Canais" },
+                { value: "Individual", label: "Individual" },
+                { value: "PIM", label: "PIM" },
+                { value: "Administradora", label: "Administradora" },
+                { value: "Middle I", label: "Middle I" },
+              ],
+            },
+            {
+              id: "gestao",
+              label: "Gestão",
+              value: gestaoFiltro,
+              onChange: handleGestaoChange,
+              options: [
+                { value: "todos", label: "Todas as Gestões" },
+                { value: "Fabio", label: "Fabio" },
+                { value: "Josy", label: "Josy" },
+                { value: "Administrativo", label: "Administrativo" },
+              ],
+            },
+            {
+              id: "supervisor",
+              label: "Supervisor",
+              value: supervisorFiltro,
+              onChange: setSupervisorFiltro,
+              options: supervisorOptions,
+            },
+          ]}
+        />
 
         {/* ══════════════════════════════════════════════════════════
             TAB: VISÃO GERAL
         ══════════════════════════════════════════════════════════ */}
         {activeTab === "visaoGeral" && (
           <div className="space-y-5">
-            <FilterBar
-              filters={[
-                {
-                  id: "periodo",
-                  label: "Período",
-                  value: periodo,
-                  onChange: (v) => setPeriodo(v as "total" | "maio" | "junho"),
-                  options: [
-                    { value: "total", label: "Total (Mai – Jun)" },
-                    { value: "maio", label: "Maio 2026" },
-                    { value: "junho", label: "Junho 2026" },
-                  ],
-                },
-                {
-                  id: "canal",
-                  label: "Canal",
-                  value: canalFiltro,
-                  onChange: setCanalFiltro,
-                  options: [
-                    { value: "todos", label: "Todos os Canais" },
-                    { value: "Individual", label: "Individual" },
-                    { value: "PIM", label: "PIM" },
-                    { value: "Administradora", label: "Administradora" },
-                    { value: "Middle I", label: "Middle I" },
-                  ],
-                },
-              ]}
-            />
 
             {/* KPIs */}
             <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
@@ -234,53 +252,6 @@ export default function DashboardClient() {
         ══════════════════════════════════════════════════════════ */}
         {activeTab === "uf" && (
           <div className="space-y-5">
-            <FilterBar
-              filters={[
-                {
-                  id: "periodo",
-                  label: "Período",
-                  value: periodo,
-                  onChange: (v) => setPeriodo(v as "total" | "maio" | "junho"),
-                  options: [
-                    { value: "total", label: "Total (Mai – Jun)" },
-                    { value: "maio", label: "Maio 2026" },
-                    { value: "junho", label: "Junho 2026" },
-                  ],
-                },
-                {
-                  id: "canal",
-                  label: "Canal",
-                  value: canalFiltro,
-                  onChange: setCanalFiltro,
-                  options: [
-                    { value: "todos", label: "Todos os Canais" },
-                    { value: "Individual", label: "Individual" },
-                    { value: "PIM", label: "PIM" },
-                    { value: "Administradora", label: "Administradora" },
-                    { value: "Middle I", label: "Middle I" },
-                  ],
-                },
-                {
-                  id: "gestao",
-                  label: "Gestão",
-                  value: gestaoFiltro,
-                  onChange: handleGestaoChange,
-                  options: [
-                    { value: "todos", label: "Todas as Gestões" },
-                    { value: "Fabio", label: "Fabio" },
-                    { value: "Josy", label: "Josy" },
-                    { value: "Administrativo", label: "Administrativo" },
-                  ],
-                },
-                {
-                  id: "supervisor",
-                  label: "Supervisor",
-                  value: supervisorFiltro,
-                  onChange: setSupervisorFiltro,
-                  options: supervisorOptions,
-                },
-              ]}
-            />
             <UFTable data={uf as any} />
           </div>
         )}
@@ -290,29 +261,6 @@ export default function DashboardClient() {
         ══════════════════════════════════════════════════════════ */}
         {activeTab === "colaboradores" && (
           <div className="space-y-5">
-            <FilterBar
-              filters={[
-                {
-                  id: "gestao",
-                  label: "Gestão",
-                  value: gestaoFiltro,
-                  onChange: handleGestaoChange,
-                  options: [
-                    { value: "todos", label: "Todas as Gestões" },
-                    { value: "Fabio", label: "Fabio" },
-                    { value: "Josy", label: "Josy" },
-                    { value: "Administrativo", label: "Administrativo" },
-                  ],
-                },
-                {
-                  id: "supervisor",
-                  label: "Supervisor",
-                  value: supervisorFiltro,
-                  onChange: setSupervisorFiltro,
-                  options: supervisorOptions,
-                },
-              ]}
-            />
 
             {/* Team summary KPIs */}
             <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">

@@ -36,10 +36,33 @@ const TABS = [
 export default function NavTabs({
   active,
   onChange,
+  variant = "default",
 }: {
   active: TabId;
   onChange: (t: TabId) => void;
+  variant?: "default" | "header";
 }) {
+  if (variant === "header") {
+    return (
+      <div className="flex gap-1">
+        {TABS.map((t) => (
+          <button
+            key={t.id}
+            onClick={() => onChange(t.id)}
+            className={`flex items-center gap-2 px-5 py-2 rounded-lg text-sm font-medium transition-all whitespace-nowrap ${
+              active === t.id
+                ? "bg-white text-[#003087] shadow-sm"
+                : "text-white/75 hover:text-white hover:bg-white/10"
+            }`}
+          >
+            {t.icon}
+            {t.label}
+          </button>
+        ))}
+      </div>
+    );
+  }
+
   return (
     <div className="flex gap-1 bg-white rounded-xl shadow-sm p-1.5 overflow-x-auto">
       {TABS.map((t) => (
