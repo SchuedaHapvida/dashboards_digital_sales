@@ -1,0 +1,46 @@
+{
+  "gestores": [
+    "Fabio",
+    "Josy"
+  ],
+  "supervisoresPorGestao": {
+    "Fabio": [
+      "Caroline Guerke",
+      "Erika Paula",
+      "Fabio Andrade",
+      "Fernanda Vizzoni",
+      "Goncalo Martins",
+      "Michele Ferreira",
+      "Neftaly Leonel",
+      "Priscilla Regis",
+      "Rebeca Alvino"
+    ],
+    "Josy": [
+      "Benve",
+      "Humberto Banqueri",
+      "Josy Bomfim",
+      "Luiz Roberto",
+      "Rebeca Moura"
+    ]
+  },
+  "contagemPorSupervisor": {
+    "Fabio": {
+      "Caroline Guerke": 8,
+      "Erika Paula": 25,
+      "Neftaly Leonel": 24,
+      "Rebeca Alvino": 19,
+      "Fernanda Vizzoni": 23,
+      "Priscilla Regis": 16,
+      "Fabio Andrade": 6,
+      "Goncalo Martins": 23,
+      "Michele Ferreira": 12
+    },
+    "Josy": {
+      "Josy Bomfim": 11,
+      "Humberto Banqueri": 42,
+      "Luiz Roberto": 37,
+      "Benve": 19,
+      "Rebeca Moura": 28
+    }
+  }
+}

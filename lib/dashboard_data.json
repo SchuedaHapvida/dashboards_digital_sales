@@ -322,91 +322,121 @@
       "NM_VENDEDOR_PLANO": "MATHEUS ALEIXO SOARES",
       "vendas": 407,
       "receita": 329639.89,
-      "ticket": 809.93
+      "ticket": 809.93,
+      "gestao": "Não identificado",
+      "supervisorDireto": "Não identificado"
     },
     {
       "NM_VENDEDOR_PLANO": "MAYARA JADE BANDEIRA BATISTA LIMA",
       "vendas": 371,
       "receita": 117010.35,
-      "ticket": 315.39
+      "ticket": 315.39,
+      "gestao": "Não identificado",
+      "supervisorDireto": "Não identificado"
     },
     {
       "NM_VENDEDOR_PLANO": "PEDRO PAULO FRANCA VILLA",
       "vendas": 279,
       "receita": 88372.81,
-      "ticket": 316.75
+      "ticket": 316.75,
+      "gestao": "Não identificado",
+      "supervisorDireto": "Não identificado"
     },
     {
       "NM_VENDEDOR_PLANO": "ANDRESSA LEME BARBOZA",
       "vendas": 202,
       "receita": 50004.76,
-      "ticket": 247.55
+      "ticket": 247.55,
+      "gestao": "Fabio",
+      "supervisorDireto": "Rebeca Alvino"
     },
     {
       "NM_VENDEDOR_PLANO": "GIOVANNA FERREIRA DE FARIAS",
       "vendas": 190,
       "receita": 54886.55,
-      "ticket": 288.88
+      "ticket": 288.88,
+      "gestao": "Fabio",
+      "supervisorDireto": "Michele Ferreira"
     },
     {
       "NM_VENDEDOR_PLANO": "ANA THALYTA SAMPAIO PINHEIRO",
       "vendas": 187,
       "receita": 68867.12,
-      "ticket": 368.27
+      "ticket": 368.27,
+      "gestao": "Não identificado",
+      "supervisorDireto": "Não identificado"
     },
     {
       "NM_VENDEDOR_PLANO": "CAMILA DE SOUSA GOMES",
       "vendas": 179,
       "receita": 52218.99,
-      "ticket": 291.73
+      "ticket": 291.73,
+      "gestao": "Fabio",
+      "supervisorDireto": "Priscilla Regis"
     },
     {
       "NM_VENDEDOR_PLANO": "BRUNA DA SILVA CAMPASSI",
       "vendas": 173,
       "receita": 51346.31,
-      "ticket": 296.8
+      "ticket": 296.8,
+      "gestao": "Josy",
+      "supervisorDireto": "Humberto Banqueri"
     },
     {
       "NM_VENDEDOR_PLANO": "JAQUELINE APARECIDA CORREIA SILVA",
       "vendas": 160,
       "receita": 49157.57,
-      "ticket": 307.23
+      "ticket": 307.23,
+      "gestao": "Josy",
+      "supervisorDireto": "Humberto Banqueri"
     },
     {
       "NM_VENDEDOR_PLANO": "MARIANA FELIX MONTEIRO DOS SANTOS",
       "vendas": 149,
       "receita": 44393.34,
-      "ticket": 297.94
+      "ticket": 297.94,
+      "gestao": "Josy",
+      "supervisorDireto": "Humberto Banqueri"
     },
     {
       "NM_VENDEDOR_PLANO": "ANDREZZA APARECIDA MACHINI",
       "vendas": 146,
       "receita": 46812.31,
-      "ticket": 320.63
+      "ticket": 320.63,
+      "gestao": "Josy",
+      "supervisorDireto": "Luiz Roberto"
     },
     {
       "NM_VENDEDOR_PLANO": "FELIPE AUGUSTO DA SILVA SOARES",
       "vendas": 144,
       "receita": 40210.22,
-      "ticket": 279.24
+      "ticket": 279.24,
+      "gestao": "Fabio",
+      "supervisorDireto": "Priscilla Regis"
     },
     {
       "NM_VENDEDOR_PLANO": "ANA CAROLINA RIBEIRO ANTUNES",
       "vendas": 139,
       "receita": 47241.13,
-      "ticket": 339.86
+      "ticket": 339.86,
+      "gestao": "Josy",
+      "supervisorDireto": "Luiz Roberto"
     },
     {
       "NM_VENDEDOR_PLANO": "ISABELLA CARDOSO DE MATTOS",
       "vendas": 137,
       "receita": 41244.61,
-      "ticket": 301.06
+      "ticket": 301.06,
+      "gestao": "Josy",
+      "supervisorDireto": "Humberto Banqueri"
     },
     {
       "NM_VENDEDOR_PLANO": "WENDEL PEREIRA DE ANDRADE",
       "vendas": 137,
       "receita": 38062.43,
-      "ticket": 277.83
+      "ticket": 277.83,
+      "gestao": "Fabio",
+      "supervisorDireto": "Priscilla Regis"
     }
   ],
   "agentesGup": [
@@ -414,91 +444,121 @@
       "nome": "Glayane Silva",
       "chats": 2355,
       "vendas": 222,
-      "conversao": 9.4
+      "conversao": 9.4,
+      "gestao": "Não identificado",
+      "supervisorDireto": "Não identificado"
     },
     {
       "nome": "Victoria Regia",
       "chats": 1668,
       "vendas": 191,
-      "conversao": 11.5
+      "conversao": 11.5,
+      "gestao": "Não identificado",
+      "supervisorDireto": "Não identificado"
     },
     {
       "nome": "Cláudia Galvão",
       "chats": 2193,
       "vendas": 170,
-      "conversao": 7.8
+      "conversao": 7.8,
+      "gestao": "Não identificado",
+      "supervisorDireto": "Não identificado"
     },
     {
       "nome": "Emanuele Souza",
       "chats": 1468,
       "vendas": 139,
-      "conversao": 9.5
+      "conversao": 9.5,
+      "gestao": "Não identificado",
+      "supervisorDireto": "Não identificado"
     },
     {
       "nome": "Lara de Lima",
       "chats": 1340,
       "vendas": 81,
-      "conversao": 6.0
+      "conversao": 6.0,
+      "gestao": "Não identificado",
+      "supervisorDireto": "Não identificado"
     },
     {
       "nome": "Marilene Santos",
       "chats": 1339,
       "vendas": 85,
-      "conversao": 6.3
+      "conversao": 6.3,
+      "gestao": "Não identificado",
+      "supervisorDireto": "Não identificado"
     },
     {
       "nome": "Josiene Dourado",
       "chats": 932,
       "vendas": 62,
-      "conversao": 6.7
+      "conversao": 6.7,
+      "gestao": "Não identificado",
+      "supervisorDireto": "Não identificado"
     },
     {
       "nome": "Vania Gabriela",
       "chats": 1008,
       "vendas": 59,
-      "conversao": 5.9
+      "conversao": 5.9,
+      "gestao": "Não identificado",
+      "supervisorDireto": "Não identificado"
     },
     {
       "nome": "Yan Vasconcelos",
       "chats": 1292,
       "vendas": 48,
-      "conversao": 3.7
+      "conversao": 3.7,
+      "gestao": "Não identificado",
+      "supervisorDireto": "Não identificado"
     },
     {
       "nome": "Emerson Soares",
       "chats": 1480,
       "vendas": 42,
-      "conversao": 2.8
+      "conversao": 2.8,
+      "gestao": "Não identificado",
+      "supervisorDireto": "Não identificado"
     },
     {
       "nome": "Lumma Roberta",
       "chats": 1152,
       "vendas": 38,
-      "conversao": 3.3
+      "conversao": 3.3,
+      "gestao": "Não identificado",
+      "supervisorDireto": "Não identificado"
     },
     {
       "nome": "Vanessa Ribeiro",
       "chats": 975,
       "vendas": 35,
-      "conversao": 3.6
+      "conversao": 3.6,
+      "gestao": "Não identificado",
+      "supervisorDireto": "Não identificado"
     },
     {
       "nome": "Mikaele Rodrigues",
       "chats": 1126,
       "vendas": 29,
-      "conversao": 2.6
+      "conversao": 2.6,
+      "gestao": "Não identificado",
+      "supervisorDireto": "Não identificado"
     },
     {
       "nome": "Amanda Vitoria",
       "chats": 959,
       "vendas": 23,
-      "conversao": 2.4
+      "conversao": 2.4,
+      "gestao": "Não identificado",
+      "supervisorDireto": "Não identificado"
     },
     {
       "nome": "Louise Mendonça",
       "chats": 1034,
       "vendas": 16,
-      "conversao": 1.5
+      "conversao": 1.5,
+      "gestao": "Não identificado",
+      "supervisorDireto": "Não identificado"
     }
   ],
   "volumeHorario": [
